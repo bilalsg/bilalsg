@@ -1,10 +1,8 @@
-# -bilal-SEGAA
-**Student @ ESTIN | Data Science 🌱 | Machine Learning | Full-Stack Developer**  
+# Bilal SEGAA 🍀
 
-
----
-
-### Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)  
+**Student @ ESTIN | Data Science 🌱 | Machine Learning | Full-Stack Developer**
 
 ---
+
+### 🔗 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)
