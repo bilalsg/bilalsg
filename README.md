@@ -1,6 +1,6 @@
 # -bilal-SEGAA
 **Student @ ESTIN | Data Science 🌱 | Machine Learning | Full-Stack Developer**  
-📍 Biskra, Algeria
+
 
 ---
 
