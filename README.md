@@ -48,5 +48,5 @@ Modern UI component library with integrated demonstrations. Built to showcase re
 
 ---
 
-**📍 Based in Béjaïa, Algeria**  
+
 *Open to collaboration and exciting opportunities in data science and full-stack development*
