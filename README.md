@@ -96,23 +96,6 @@ Building intelligent applications that transform data into actionable insights
 
 ---
 
-## 🌱 Growth Mindset
-
-<div align="center">
-
-```
-    🌱 Seedling → 🍀 Growing → 🌿 Thriving → 🌳 Mastering
-    
-    "Every line of code is a step toward evolution"
-```
-
-**Current Focus:** Expanding my AI/ML expertise while cultivating full-stack mastery
-
-🍀 *Lucky enough to turn passion into profession* 🍀
-
-</div>
-
----
 
 ## 📫 Let's Connect & Collaborate
 
