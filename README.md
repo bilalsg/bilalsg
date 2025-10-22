@@ -16,9 +16,8 @@ Building intelligent applications that transform data into actionable insights
 
 ## 🌌 My Skill
 
-<div align="center">
-
-```
+<div style="display: flex; justify-content: center;">
+  <pre>
                               ⭐️ ME (Core)
                                    |
                     ╭──────────────┴─────────────╮
@@ -28,7 +27,7 @@ Building intelligent applications that transform data into actionable insights
                     │                            │
         ┌───────────┼───────────┐     ┌──────────┼──────────┐
         │           │           │     │                     │
-    Pandas      NumPy      ML/AI   React                 next.js
+    Pandas      NumPy         ML/AI React                 next.js
         │           │           │     │                     │
         └───────────┴───────────┘     └──────────┬──────────┘
                                                  │ 
@@ -39,11 +38,9 @@ Building intelligent applications that transform data into actionable insights
                         🌍 Databases & Tools
         (PostgreSQL, MySQL, Git, Supabase, Prisma)
 
-```
-
-*Each skill orbits and influences the others, creating a complete development ecosystem* 🌱
-
+  </pre>
 </div>
+
 
 ---
 
