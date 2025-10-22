@@ -64,18 +64,6 @@ Discover beautifully crafted websites and interfaces to spark your creativity an
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bilal-segaa&show_icons=true&theme=radical&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bilal-segaa&layout=compact&theme=radical&hide_border=true)
-
-</div>
-
----
-
 ## 📫 Let's Connect
 
 <div align="center">
