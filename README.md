@@ -14,21 +14,31 @@ Building intelligent applications that transform data into actionable insights
 
 ---
 
-## 🌌 My Skill Universe
+## 🌌 My Skill Solar System
 
 <div align="center">
 
 ```
-                    🪐 Full-Stack Development
-                         /        \
-                        /          \
-            ☄️ Data Science      🌟 AI & ML
-                   |                  |
-                   |                  |
-            🌍 Databases  ━━━━━  🚀 Tools & Frameworks
+                              ⭐️ ME (Core)
+                                   |
+                    ╭──────────────┴──────────────╮
+                    │                             │
+                🪐 Python                     ☄️ JavaScript
+            (Data Science Orbit)         (Frontend Orbit)
+                    │                             │
+        ┌───────────┼───────────┐     ┌──────────┼──────────┐
+        │           │           │     │          │          │
+    Pandas      NumPy      ML/AI   React     Next.js    Node.js
+        │           │           │     │          │          │
+        └───────────┴───────────┘     └──────────┴──────────┘
+                    │                             │
+                    ╰──────────────┬──────────────╯
+                                   │
+                        🌍 Databases & Tools
+                    (PostgreSQL, MySQL, Git)
 ```
 
-Orbiting around innovation, powered by continuous learning and evolution 🌱
+*Each skill orbits and influences the others, creating a complete development ecosystem* 🌱
 
 </div>
 
@@ -81,24 +91,6 @@ Orbiting around innovation, powered by continuous learning and evolution 🌱
 🎨 Discover beautifully crafted websites and interfaces to spark your creativity and elevate your design projects
 
 [![Visit UI Fusion](https://img.shields.io/badge/Visit-UI_Fusion-blueviolet?style=for-the-badge&logo=vercel&logoColor=white)](https://uifusion.vercel.app)
-
-</div>
-
----
-
-## 🌱 Growth Mindset
-
-<div align="center">
-
-```
-    🌱 Seedling → 🍀 Growing → 🌿 Thriving → 🌳 Mastering
-    
-    "Every line of code is a step toward evolution"
-```
-
-**Current Focus:** Expanding my AI/ML expertise while cultivating full-stack mastery
-
-🍀 *Lucky enough to turn passion into profession* 🍀
 
 </div>
 
