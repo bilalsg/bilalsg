@@ -14,28 +14,31 @@ Building intelligent applications that transform data into actionable insights
 
 ---
 
-## 🌌 My Skill Solar System
+## 🌌 My Skill
 
 <div align="center">
 
 ```
                               ⭐️ ME (Core)
                                    |
-                    ╭──────────────┴──────────────╮
-                    │                             │
-                🪐 Python                     ☄️ JavaScript
+                    ╭──────────────┴─────────────╮
+                    │                            │
+                🪐 Python                  ☄️ JavaScript
             (Data Science Orbit)         (Frontend Orbit)
-                    │                             │
+                    │                            │
         ┌───────────┼───────────┐     ┌──────────┼──────────┐
-        │           │           │     │          │          │
-    Pandas      NumPy      ML/AI   React     Next.js    Node.js
-        │           │           │     │          │          │
-        └───────────┴───────────┘     └──────────┴──────────┘
-                    │                             │
-                    ╰──────────────┬──────────────╯
+        │           │           │     │                     │
+    Pandas      NumPy      ML/AI   React                 next.js
+        │           │           │     │                     │
+        └───────────┴───────────┘     └──────────┬──────────┘
+                                                 │ 
+                                 Backend Frameworks & Tools
+                        (NestJS, Spring Boot, Laravel, Bun ,nodeJs)
+                                   │
                                    │
                         🌍 Databases & Tools
-                    (PostgreSQL, MySQL, Git)
+        (PostgreSQL, MySQL, Git, Supabase, Prisma)
+
 ```
 
 *Each skill orbits and influences the others, creating a complete development ecosystem* 🌱
