@@ -1,118 +1,131 @@
-<svg viewBox="0 0 820 470" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','JetBrains Mono',Consolas,monospace">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#010409"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="1.1" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
+<div align="center">
 
-  <rect x="1" y="1" width="818" height="468" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+<img src="./assets/terminal.svg" width="100%" alt="terminal animation" />
 
-  <rect x="1" y="1" width="818" height="44" rx="12" fill="#161b22"/>
-  <rect x="1" y="32" width="818" height="12" fill="#161b22"/>
-  <line x1="1" y1="44" x2="819" y2="44" stroke="#30363d" stroke-width="1"/>
+<br/>
 
-  <circle cx="30" cy="22.0" r="7" fill="#ff5f56"/>
-  <circle cx="52" cy="22.0" r="7" fill="#ffbd2e"/>
-  <circle cx="74" cy="22.0" r="7" fill="#27c93f"/>
-  <text x="410.0" y="27.0" text-anchor="middle" fill="#8b949e" font-size="13">bilal@estin: ~/portfolio</text>
+![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=7ee787&label=terminal+visits)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)
+[![Email](https://img.shields.io/badge/Email-171B21?style=flat-square&logo=gmail&logoColor=D14836)](mailto:b_segaa@estin.dz)
+[![Portfolio](https://img.shields.io/badge/Portfolio-171B21?style=flat-square&logo=vercel&logoColor=white)](https://uifusion.vercel.app)
 
-  <clipPath id="clip0">
-    <rect x="30" y="58" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;87;87;87;0"
-        keyTimes="0;0.0300;0.0850;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip0)">
-    <text x="30" y="78" font-size="16" fill="#7ee787" filter="url(#glow)">$ whoami</text>
-  </g>
-  <clipPath id="clip1">
-    <rect x="30" y="100" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;133;133;133;0"
-        keyTimes="0;0.1150;0.1700;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip1)">
-    <text x="30" y="120" font-size="16" fill="#79c0ff" filter="url(#glow)">> bilal-segaa</text>
-  </g>
-  <clipPath id="clip2">
-    <rect x="30" y="142" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;142;142;142;0"
-        keyTimes="0;0.2000;0.2550;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip2)">
-    <text x="30" y="162" font-size="16" fill="#7ee787" filter="url(#glow)">$ cat role.txt</text>
-  </g>
-  <clipPath id="clip3">
-    <rect x="30" y="184" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;519;519;519;0"
-        keyTimes="0;0.2850;0.3400;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip3)">
-    <text x="30" y="204" font-size="16" fill="#79c0ff" filter="url(#glow)">> Data Scientist · Full-Stack Developer · AI Enthusiast</text>
-  </g>
-  <clipPath id="clip4">
-    <rect x="30" y="226" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;188;188;188;0"
-        keyTimes="0;0.3700;0.4250;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip4)">
-    <text x="30" y="246" font-size="16" fill="#7ee787" filter="url(#glow)">$ cat education.txt</text>
-  </g>
-  <clipPath id="clip5">
-    <rect x="30" y="268" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;473;473;473;0"
-        keyTimes="0;0.4550;0.5100;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip5)">
-    <text x="30" y="288" font-size="16" fill="#79c0ff" filter="url(#glow)">> CS Engineering @ ESTIN — AI & Data Science track</text>
-  </g>
-  <clipPath id="clip6">
-    <rect x="30" y="310" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;133;133;133;0"
-        keyTimes="0;0.5400;0.5950;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip6)">
-    <text x="30" y="330" font-size="16" fill="#7ee787" filter="url(#glow)">$ ./status.sh</text>
-  </g>
-  <clipPath id="clip7">
-    <rect x="30" y="352" height="30" width="0">
-      <animate attributeName="width"
-        values="0;0;483;483;483;0"
-        keyTimes="0;0.6250;0.6800;0.8600;0.8650;1"
-        dur="10.0s" begin="0s" repeatCount="indefinite" calcMode="linear"/>
-    </rect>
-  </clipPath>
-  <g clip-path="url(#clip7)">
-    <text x="30" y="372" font-size="16" fill="#79c0ff" filter="url(#glow)">> Open to collaboration ✓ building intelligent apps</text>
-  </g>
-  <rect id="cursor" x="30" y="356" width="9" height="18" fill="#7ee787">
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5;1;1" dur="0.9s" begin="0s" repeatCount="indefinite"/>
-  </rect>
-</svg>
+</div>
+
+<br/>
+
+```bash
+bilal@estin:~$ cat about.md
+```
+
+> CS Engineering student at **ESTIN**, focused on **AI & Data Science**.
+> I turn messy data into products people can actually use — from ML pipelines
+> to the full-stack apps that ship them.
+
+<br/>
+
+```bash
+bilal@estin:~$ ls -la stack/
+```
+
+<div align="center">
+
+| `data_science/` | `frontend/` | `backend/` | `infra/` |
+|:---:|:---:|:---:|:---:|
+| ![Python](https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
+| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) | ![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/Postgres-316192?style=flat-square&logo=postgresql&logoColor=white) |
+| ![ML](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) |
+
+</div>
+
+<br/>
+
+```bash
+bilal@estin:~$ ./build --project featured
+```
+
+<div align="center">
+
+### `UI Fusion` — a curated gallery of standout UI/UX design references
+
+**[→ uifusion.vercel.app](https://uifusion.vercel.app)**
+
+</div>
+
+<br/>
+
+```bash
+bilal@estin:~$ git log --stat --author=bilal
+```
+
+<div align="center">
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=7ee787&icon_color=7ee787&text_color=c9d1d9"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9"/>
+</div>
+
+<div align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=7EE787&fire=7EE787&currStreakLabel=7EE787"/>
+</div>
+
+<br/>
+
+```bash
+bilal@estin:~$ git log --graph --oneline --all
+```
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+</picture>
+
+<sub>generated by <a href="https://github.com/Platane/snk">Platane/snk</a> — add the workflow below to activate it on your own repo</sub>
+</div>
+
+<details>
+<summary><code>.github/workflows/snake.yml</code> — click to expand</summary>
+
+```yaml
+name: generate snake
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: YOUR_GITHUB_USERNAME
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+</details>
+
+<br/>
+
+```bash
+bilal@estin:~$ ./contact.sh --reach-out
+```
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)
+[![Email](https://img.shields.io/badge/Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:b_segaa@estin.dz)
+
+<sub>`exit 0` — open to collaboration in data science & full-stack dev 🌱</sub>
+
+</div>
