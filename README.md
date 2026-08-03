@@ -1,121 +1,166 @@
-<div align="center">
+<svg width="760" height="300" viewBox="0 0 760 300" xmlns="http://www.w3.org/2000/svg" font-family="'Cascadia Code','Fira Code',Consolas,'Courier New',monospace">
 
-<img src="./assets/terminal.svg" width="100%" alt="terminal animation" />
+  <defs>
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1420"/>
+      <stop offset="100%" stop-color="#0a0d13"/>
+    </linearGradient>
 
-<br/>
+    <linearGradient id="glintGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
 
-![Profile Views](https://komarev.com/ghpvc/?username=bilalsg&style=flat-square&color=7ee787&label=terminal+visits)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)
-[![Email](https://img.shields.io/badge/Email-171B21?style=flat-square&logo=gmail&logoColor=D14836)](mailto:b_segaa@estin.dz)
-[![Portfolio](https://img.shields.io/badge/Portfolio-171B21?style=flat-square&logo=vercel&logoColor=white)](https://uifusion.vercel.app)
-[![Followers](https://img.shields.io/github/followers/bilalsg?style=flat-square&color=7ee787&label=followers)](https://github.com/bilalsg?tab=followers)
+    <linearGradient id="sheenGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
 
-</div>
+    <linearGradient id="asciiGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
 
-<br/>
+    <clipPath id="panelClip">
+      <rect x="1" y="1" width="758" height="298" rx="12"/>
+    </clipPath>
 
-```bash
-bilal@estin:~$ cat about.md
-```
+    <clipPath id="clipLine1"><rect x="30" y="26" height="20" width="0">
+      <animate attributeName="width" dur="14s" repeatCount="indefinite"
+        keyTimes="0;0.0214;0.1143;0.7643;0.8071;1"
+        values="0;0;185;185;0;0"/>
+    </rect></clipPath>
 
-> CS Engineering student at **ESTIN**, focused on **AI & Data Science**.
-> I turn messy data into products people can actually use — from ML pipelines
-> to the full-stack apps that ship them.
->
-> 🌱 currently sharpening: LLM-powered tooling & production-grade full-stack apps
+    <clipPath id="clipLine2"><rect x="30" y="50" height="20" width="0">
+      <animate attributeName="width" dur="14s" repeatCount="indefinite"
+        keyTimes="0;0.1429;0.2429;0.7643;0.8071;1"
+        values="0;0;380;380;0;0"/>
+    </rect></clipPath>
 
-<br/>
+    <clipPath id="clipLine3"><rect x="30" y="76" height="20" width="0">
+      <animate attributeName="width" dur="14s" repeatCount="indefinite"
+        keyTimes="0;0.2786;0.3893;0.7643;0.8071;1"
+        values="0;0;265;265;0;0"/>
+    </rect></clipPath>
 
-```bash
-bilal@estin:~$ ls -la stack/
-```
+    <clipPath id="clipClear"><rect x="30" y="210" height="20" width="0">
+      <animate attributeName="width" dur="14s" repeatCount="indefinite"
+        keyTimes="0;0.6429;0.7329;0.7643;0.8071;1"
+        values="0;0;176;176;0;0"/>
+    </rect></clipPath>
 
-<div align="center">
+    <clipPath id="asciiBox"><rect x="20" y="108" width="470" height="100"/></clipPath>
+  </defs>
 
-| `data_science/` | `frontend/` | `backend/` | `infra/` |
-|:---:|:---:|:---:|:---:|
-| ![Python](https://img.shields.io/badge/Python-14354C?style=flat-square&logo=python&logoColor=white) | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) | ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) | ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) |
-| ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) | ![TailwindCSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) | ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) | ![PostgreSQL](https://img.shields.io/badge/Postgres-316192?style=flat-square&logo=postgresql&logoColor=white) |
-| ![ML](https://img.shields.io/badge/Machine_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white) | ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) |
+  <!-- panel -->
+  <g clip-path="url(#panelClip)">
+    <rect x="0" y="0" width="760" height="300" fill="url(#panelGrad)"/>
 
-</div>
+    <!-- header bar -->
+    <rect x="0" y="0" width="760" height="36" fill="#131a24"/>
+    <line x1="0" y1="36" x2="760" y2="36" stroke="#232b36" stroke-width="1"/>
 
-<br/>
+    <circle cx="20" cy="18" r="6" fill="#ff5f56">
+      <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="40" cy="18" r="6" fill="#ffbd2e">
+      <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="18" r="6" fill="#27c93f">
+      <animate attributeName="opacity" values="1;0.55;1" dur="2.6s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
 
-```bash
-bilal@estin:~$ ./build --project featured
-```
+    <text x="380" y="23" text-anchor="middle" font-size="12.5" fill="#7d8590">bilal@estin: ~ — zsh</text>
 
-<div align="center">
+    <!-- terminal body -->
+    <g font-size="14">
 
-### `UI Fusion` — a curated gallery of standout UI/UX design references
+      <!-- line 1 -->
+      <text clip-path="url(#clipLine1)" x="30" y="40" xml:space="preserve"><tspan fill="#7ee787">bilal</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#58a6ff">estin</tspan><tspan fill="#7d8590">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
 
-**[→ uifusion.vercel.app](https://uifusion.vercel.app)**
+      <!-- line 2 (output) -->
+      <text clip-path="url(#clipLine2)" x="30" y="64" xml:space="preserve"><tspan fill="#7d8590">&gt; </tspan><tspan fill="#c9d1d9">bilal segaa — AI/ML &amp; Full-Stack Engineer</tspan></text>
 
-</div>
+      <!-- line 3 -->
+      <text clip-path="url(#clipLine3)" x="30" y="90" xml:space="preserve"><tspan fill="#7ee787">bilal</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#58a6ff">estin</tspan><tspan fill="#7d8590">:~$ </tspan><tspan fill="#e6edf3">cat mission.txt</tspan></text>
 
-<br/>
+      <!-- ascii art reveal, staggered -->
+      <g font-size="13.5" font-weight="bold" fill="url(#asciiGrad)" xml:space="preserve">
+        <g>
+          <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+            keyTimes="0;0.4107;0.4321;0.7643;0.8071;1" values="0;0;1;1;0;0"/>
+          <text x="30" y="118">  ____  _ _         _   </text>
+        </g>
+        <g>
+          <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+            keyTimes="0;0.4214;0.4429;0.7643;0.8071;1" values="0;0;1;1;0;0"/>
+          <text x="30" y="134"> | __ )(_) |  __ _  | |  </text>
+        </g>
+        <g>
+          <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+            keyTimes="0;0.4321;0.4536;0.7643;0.8071;1" values="0;0;1;1;0;0"/>
+          <text x="30" y="150"> |  _ \| | | / _` | | |  </text>
+        </g>
+        <g>
+          <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+            keyTimes="0;0.4429;0.4643;0.7643;0.8071;1" values="0;0;1;1;0;0"/>
+          <text x="30" y="166"> | |_) | | | | (_| | | |__</text>
+        </g>
+        <g>
+          <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+            keyTimes="0;0.4536;0.4750;0.7643;0.8071;1" values="0;0;1;1;0;0"/>
+          <text x="30" y="182"> |____/|_|_|\__,_| |____|</text>
+        </g>
+      </g>
 
+      <g font-size="12.5" font-weight="normal" fill="#7ee787">
+        <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+          keyTimes="0;0.4643;0.4857;0.7643;0.8071;1" values="0;0;1;1;0;0"/>
+        <text x="30" y="200">AI / ML Engineer &amp; Full-Stack Developer</text>
+      </g>
 
+      <!-- glint sweep across the ascii block -->
+      <g clip-path="url(#asciiBox)">
+        <rect y="105" width="120" height="105" fill="url(#glintGrad)" style="mix-blend-mode:screen">
+          <animate attributeName="x" dur="14s" repeatCount="indefinite"
+            keyTimes="0;0.4929;0.5786;1" values="-150;-150;460;-150"/>
+          <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+            keyTimes="0;0.4929;0.4929;0.5786;0.5786;1" values="0;0;1;1;0;0"/>
+        </rect>
+      </g>
 
-```bash
-bilal@estin:~$ git log --graph --oneline --all
-```
+      <!-- clear command -->
+      <text clip-path="url(#clipClear)" x="30" y="224" xml:space="preserve"><tspan fill="#7ee787">bilal</tspan><tspan fill="#7d8590">@</tspan><tspan fill="#58a6ff">estin</tspan><tspan fill="#7d8590">:~$ </tspan><tspan fill="#e6edf3">clear</tspan></text>
 
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
-</picture>
+      <!-- block cursor -->
+      <rect width="9" height="16" fill="#7ee787">
+        <animate attributeName="x" dur="14s" repeatCount="indefinite"
+          keyTimes="0;0.0214;0.1143;0.1429;0.1429;0.2429;0.2786;0.2786;0.3893;0.4107;0.6429;0.6429;0.7329;0.7643;0.8071;1"
+          values="30;30;215;215;30;410;410;30;295;295;295;30;206;206;30;30"/>
+        <animate attributeName="y" dur="14s" repeatCount="indefinite"
+          keyTimes="0;0.1429;0.1429;0.2786;0.2786;0.6429;0.6429;1"
+          values="27;27;51;51;77;77;211;27"/>
+        <animate attributeName="opacity" dur="14s" repeatCount="indefinite"
+          keyTimes="0;0.4107;0.4107;0.6429;0.6429;0.7643;0.8071;1"
+          values="1;1;0;0;1;1;0;0"/>
+      </rect>
 
-<sub>generated by <a href="https://github.com/Platane/snk">Platane/snk</a> — add the workflow below to activate it on your own repo</sub>
-</div>
+    </g>
 
-<details>
-<summary><code>.github/workflows/snake.yml</code> — click to expand</summary>
+    <!-- ambient sheen sweep across whole panel -->
+    <g transform="skewX(-18)">
+      <rect y="-40" width="140" height="380" fill="url(#sheenGrad)" style="mix-blend-mode:screen">
+        <animate attributeName="x" dur="14s" repeatCount="indefinite"
+          keyTimes="0;1" values="-300;1000"/>
+      </rect>
+    </g>
 
-```yaml
-name: generate snake
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch: {}
-  push:
-    branches: [ main ]
-permissions:
-  contents: write
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: bilalsg
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-</details>
-
-<br/>
-
-```bash
-bilal@estin:~$ ./contact.sh --reach-out
-```
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)
-[![Email](https://img.shields.io/badge/Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:b_segaa@estin.dz)
-
-<sub>`exit 0` — open to collaboration in data science & full-stack dev 🌱</sub>
-
-</div>
+    <!-- pulsing accent border -->
+    <rect x="1" y="1" width="758" height="298" rx="12" fill="none" stroke="#7ee787" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.15;0.5;0.15" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1" y="1" width="758" height="298" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+  </g>
+</svg>
