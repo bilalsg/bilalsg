@@ -107,7 +107,7 @@
 <text x="30" y="308" font-size="15" fill="#e3b341">⠏ Resolving packages...</text></g>
 <rect x="30" y="316" width="420" height="8" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1" opacity="0">
   <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.393555;0.393555;0.887673;0.888696;1" dur="19.55s" repeatCount="indefinite"/></rect>
-<rect x="30" y="316" width="0" height="8" rx="4" fill="url(#barGrad)">
+<rect x="30" y="316" width="0" height="4" rx="4" fill="url(#barGrad)">
   <animate attributeName="width" values="0;0;420;420;420;0" keyTimes="0;0.393555;0.449821;0.887673;0.888696;1" dur="19.55s" begin="0s" repeatCount="indefinite" calcMode="linear"/></rect>
 <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.393555;0.394155;0.399182;0.399782;1" dur="19.55s" repeatCount="indefinite"/>
 <text x="464" y="323" font-size="12" fill="#8b949e">0%</text></g>
