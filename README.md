@@ -57,20 +57,7 @@ bilal@estin:~$ ./build --project featured
 
 <br/>
 
-```bash
-bilal@estin:~$ git log --stat --author=bilal
-```
 
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=bilalsg&show_icons=true&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=7ee787&icon_color=7ee787&text_color=c9d1d9" />
-<img width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bilalsg&layout=compact&theme=github_dark_dimmed&hide_border=true&bg_color=0d1117&title_color=7ee787&text_color=c9d1d9" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=bilalsg&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=30363D&ring=7EE787&fire=7EE787&currStreakLabel=7EE787" />
-
-</div>
-
-<br/>
 
 ```bash
 bilal@estin:~$ git log --graph --oneline --all
