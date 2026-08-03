@@ -16,7 +16,7 @@
       <feGaussianBlur stdDeviation="0.8" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="screenClip"><rect x="1" y="43" width="858" height="436" rx="0"/></clipPath>
+    <clipPath id="screenClip"><rect x="1" y="43" width="858" height="436"/></clipPath>
   </defs>
 
   <rect x="1" y="1" width="858" height="478" rx="12" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
@@ -34,77 +34,71 @@
     <g>
       
     <text font-size="14" fill="#3fb950" opacity="0.39" font-family="monospace">
-      <tspan x="17.2" dy="16">エ</tspan><tspan x="17.2" dy="16">シ</tspan><tspan x="17.2" dy="16">3</tspan><tspan x="17.2" dy="16">イ</tspan><tspan x="17.2" dy="16">*</tspan><tspan x="17.2" dy="16">1</tspan><tspan x="17.2" dy="16">キ</tspan><tspan x="17.2" dy="16">イ</tspan><tspan x="17.2" dy="16">ウ</tspan><tspan x="17.2" dy="16">セ</tspan>
+      <tspan x="17.2" dy="16">エ</tspan><tspan x="17.2" dy="16">シ</tspan><tspan x="17.2" dy="16">3</tspan><tspan x="17.2" dy="16">イ</tspan><tspan x="17.2" dy="16">+</tspan><tspan x="17.2" dy="16">1</tspan><tspan x="17.2" dy="16">キ</tspan><tspan x="17.2" dy="16">イ</tspan><tspan x="17.2" dy="16">ウ</tspan><tspan x="17.2" dy="16">セ</tspan>
       <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="6.08s" begin="-0.29s" repeatCount="indefinite"/>
     </text>
     <text font-size="14" fill="#3fb950" opacity="0.4" font-family="monospace">
-      <tspan x="69.9" dy="16">エ</tspan><tspan x="69.9" dy="16">+</tspan><tspan x="69.9" dy="16">ク</tspan><tspan x="69.9" dy="16">5</tspan><tspan x="69.9" dy="16">5</tspan><tspan x="69.9" dy="16">3</tspan><tspan x="69.9" dy="16">+</tspan><tspan x="69.9" dy="16">イ</tspan><tspan x="69.9" dy="16">3</tspan><tspan x="69.9" dy="16">3</tspan>
+      <tspan x="69.9" dy="16">エ</tspan><tspan x="69.9" dy="16">ク</tspan><tspan x="69.9" dy="16">5</tspan><tspan x="69.9" dy="16">5</tspan><tspan x="69.9" dy="16">3</tspan><tspan x="69.9" dy="16">イ</tspan><tspan x="69.9" dy="16">3</tspan><tspan x="69.9" dy="16">3</tspan><tspan x="69.9" dy="16">ス</tspan><tspan x="69.9" dy="16">イ</tspan>
       <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="4.86s" begin="-2.06s" repeatCount="indefinite"/>
     </text>
-    <text font-size="14" fill="#3fb950" opacity="0.32" font-family="monospace">
-      <tspan x="120.8" dy="16">オ</tspan><tspan x="120.8" dy="16">2</tspan><tspan x="120.8" dy="16">エ</tspan><tspan x="120.8" dy="16">3</tspan><tspan x="120.8" dy="16">コ</tspan><tspan x="120.8" dy="16">2</tspan><tspan x="120.8" dy="16">$</tspan><tspan x="120.8" dy="16">6</tspan><tspan x="120.8" dy="16">カ</tspan><tspan x="120.8" dy="16">エ</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="4.69s" begin="-4.03s" repeatCount="indefinite"/>
+    <text font-size="14" fill="#3fb950" opacity="0.34" font-family="monospace">
+      <tspan x="130.1" dy="16">2</tspan><tspan x="130.1" dy="16">エ</tspan><tspan x="130.1" dy="16">3</tspan><tspan x="130.1" dy="16">コ</tspan><tspan x="130.1" dy="16">2</tspan><tspan x="130.1" dy="16">$</tspan><tspan x="130.1" dy="16">6</tspan><tspan x="130.1" dy="16">カ</tspan><tspan x="130.1" dy="16">エ</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="6.73s" begin="-0.9s" repeatCount="indefinite"/>
     </text>
     <text font-size="14" fill="#3fb950" opacity="0.38" font-family="monospace">
-      <tspan x="175.1" dy="16">3</tspan><tspan x="175.1" dy="16">イ</tspan><tspan x="175.1" dy="16">4</tspan><tspan x="175.1" dy="16">キ</tspan><tspan x="175.1" dy="16">0</tspan><tspan x="175.1" dy="16">6</tspan><tspan x="175.1" dy="16">2</tspan><tspan x="175.1" dy="16">セ</tspan><tspan x="175.1" dy="16">9</tspan><tspan x="175.1" dy="16">サ</tspan><tspan x="175.1" dy="16">ソ</tspan><tspan x="175.1" dy="16">3</tspan><tspan x="175.1" dy="16">*</tspan><tspan x="175.1" dy="16">ソ</tspan>
+      <tspan x="175.1" dy="16">3</tspan><tspan x="175.1" dy="16">イ</tspan><tspan x="175.1" dy="16">4</tspan><tspan x="175.1" dy="16">キ</tspan><tspan x="175.1" dy="16">0</tspan><tspan x="175.1" dy="16">6</tspan><tspan x="175.1" dy="16">2</tspan><tspan x="175.1" dy="16">セ</tspan><tspan x="175.1" dy="16">9</tspan><tspan x="175.1" dy="16">サ</tspan><tspan x="175.1" dy="16">ソ</tspan><tspan x="175.1" dy="16">3</tspan><tspan x="175.1" dy="16">+</tspan><tspan x="175.1" dy="16">ソ</tspan>
       <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="5.25s" begin="-0.51s" repeatCount="indefinite"/>
     </text>
     <text font-size="14" fill="#3fb950" opacity="0.31" font-family="monospace">
-      <tspan x="222.8" dy="16">3</tspan><tspan x="222.8" dy="16">コ</tspan><tspan x="222.8" dy="16">1</tspan><tspan x="222.8" dy="16">0</tspan><tspan x="222.8" dy="16">&</tspan><tspan x="222.8" dy="16">サ</tspan><tspan x="222.8" dy="16">8</tspan><tspan x="222.8" dy="16">ソ</tspan><tspan x="222.8" dy="16">コ</tspan><tspan x="222.8" dy="16">4</tspan>
+      <tspan x="222.8" dy="16">3</tspan><tspan x="222.8" dy="16">コ</tspan><tspan x="222.8" dy="16">1</tspan><tspan x="222.8" dy="16">0</tspan><tspan x="222.8" dy="16">*</tspan><tspan x="222.8" dy="16">サ</tspan><tspan x="222.8" dy="16">8</tspan><tspan x="222.8" dy="16">ソ</tspan><tspan x="222.8" dy="16">コ</tspan><tspan x="222.8" dy="16">4</tspan>
       <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="7.68s" begin="-5.37s" repeatCount="indefinite"/>
     </text>
     <text font-size="14" fill="#3fb950" opacity="0.33" font-family="monospace">
-      <tspan x="283.9" dy="16">*</tspan><tspan x="283.9" dy="16">0</tspan><tspan x="283.9" dy="16">セ</tspan><tspan x="283.9" dy="16">イ</tspan><tspan x="283.9" dy="16">+</tspan><tspan x="283.9" dy="16">6</tspan><tspan x="283.9" dy="16">ウ</tspan><tspan x="283.9" dy="16">9</tspan><tspan x="283.9" dy="16">2</tspan>
+      <tspan x="283.9" dy="16">+</tspan><tspan x="283.9" dy="16">0</tspan><tspan x="283.9" dy="16">セ</tspan><tspan x="283.9" dy="16">イ</tspan><tspan x="283.9" dy="16">6</tspan><tspan x="283.9" dy="16">ウ</tspan><tspan x="283.9" dy="16">9</tspan><tspan x="283.9" dy="16">2</tspan><tspan x="283.9" dy="16">3</tspan>
       <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="6.55s" begin="-1.08s" repeatCount="indefinite"/>
     </text>
     <text font-size="14" fill="#3fb950" opacity="0.36" font-family="monospace">
-      <tspan x="328.7" dy="16">3</tspan><tspan x="328.7" dy="16">#</tspan><tspan x="328.7" dy="16">ソ</tspan><tspan x="328.7" dy="16">ウ</tspan><tspan x="328.7" dy="16">$</tspan><tspan x="328.7" dy="16">ウ</tspan><tspan x="328.7" dy="16">+</tspan><tspan x="328.7" dy="16">ケ</tspan><tspan x="328.7" dy="16">0</tspan><tspan x="328.7" dy="16">7</tspan><tspan x="328.7" dy="16">6</tspan><tspan x="328.7" dy="16">ウ</tspan><tspan x="328.7" dy="16">イ</tspan><tspan x="328.7" dy="16">8</tspan><tspan x="328.7" dy="16">7</tspan>
+      <tspan x="332.1" dy="16">3</tspan><tspan x="332.1" dy="16">#</tspan><tspan x="332.1" dy="16">ソ</tspan><tspan x="332.1" dy="16">ウ</tspan><tspan x="332.1" dy="16">$</tspan><tspan x="332.1" dy="16">ウ</tspan><tspan x="332.1" dy="16">ケ</tspan><tspan x="332.1" dy="16">0</tspan><tspan x="332.1" dy="16">7</tspan><tspan x="332.1" dy="16">6</tspan><tspan x="332.1" dy="16">ウ</tspan><tspan x="332.1" dy="16">イ</tspan><tspan x="332.1" dy="16">8</tspan><tspan x="332.1" dy="16">7</tspan><tspan x="332.1" dy="16">コ</tspan>
       <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="5.75s" begin="-4.0s" repeatCount="indefinite"/>
     </text>
-    <text font-size="14" fill="#3fb950" opacity="0.32" font-family="monospace">
-      <tspan x="375.7" dy="16">ス</tspan><tspan x="375.7" dy="16">&</tspan><tspan x="375.7" dy="16">6</tspan><tspan x="375.7" dy="16">シ</tspan><tspan x="375.7" dy="16">ア</tspan><tspan x="375.7" dy="16">+</tspan><tspan x="375.7" dy="16">ソ</tspan><tspan x="375.7" dy="16">シ</tspan><tspan x="375.7" dy="16">カ</tspan><tspan x="375.7" dy="16">4</tspan><tspan x="375.7" dy="16">エ</tspan><tspan x="375.7" dy="16">0</tspan><tspan x="375.7" dy="16">イ</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="8.47s" begin="-6.96s" repeatCount="indefinite"/>
-    </text>
     <text font-size="14" fill="#3fb950" opacity="0.33" font-family="monospace">
-      <tspan x="425.5" dy="16">%</tspan><tspan x="425.5" dy="16">0</tspan><tspan x="425.5" dy="16">ウ</tspan><tspan x="425.5" dy="16">カ</tspan><tspan x="425.5" dy="16">ソ</tspan><tspan x="425.5" dy="16">ス</tspan><tspan x="425.5" dy="16">2</tspan><tspan x="425.5" dy="16">ケ</tspan><tspan x="425.5" dy="16">&</tspan><tspan x="425.5" dy="16">オ</tspan><tspan x="425.5" dy="16">$</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="5.02s" begin="-1.24s" repeatCount="indefinite"/>
+      <tspan x="381.1" dy="16">6</tspan><tspan x="381.1" dy="16">シ</tspan><tspan x="381.1" dy="16">ア</tspan><tspan x="381.1" dy="16">ソ</tspan><tspan x="381.1" dy="16">シ</tspan><tspan x="381.1" dy="16">カ</tspan><tspan x="381.1" dy="16">4</tspan><tspan x="381.1" dy="16">エ</tspan><tspan x="381.1" dy="16">0</tspan><tspan x="381.1" dy="16">イ</tspan><tspan x="381.1" dy="16">キ</tspan><tspan x="381.1" dy="16">9</tspan><tspan x="381.1" dy="16">コ</tspan><tspan x="381.1" dy="16">オ</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="7.79s" begin="-2.22s" repeatCount="indefinite"/>
     </text>
-    <text font-size="14" fill="#3fb950" opacity="0.33" font-family="monospace">
-      <tspan x="480.1" dy="16">&</tspan><tspan x="480.1" dy="16">ス</tspan><tspan x="480.1" dy="16">+</tspan><tspan x="480.1" dy="16">ク</tspan><tspan x="480.1" dy="16">オ</tspan><tspan x="480.1" dy="16">ウ</tspan><tspan x="480.1" dy="16">カ</tspan><tspan x="480.1" dy="16">オ</tspan><tspan x="480.1" dy="16">ク</tspan><tspan x="480.1" dy="16">6</tspan><tspan x="480.1" dy="16">ク</tspan><tspan x="480.1" dy="16">ア</tspan><tspan x="480.1" dy="16">0</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="5.61s" begin="-2.33s" repeatCount="indefinite"/>
+    <text font-size="14" fill="#3fb950" opacity="0.29" font-family="monospace">
+      <tspan x="433.8" dy="16">ソ</tspan><tspan x="433.8" dy="16">ス</tspan><tspan x="433.8" dy="16">2</tspan><tspan x="433.8" dy="16">ケ</tspan><tspan x="433.8" dy="16">*</tspan><tspan x="433.8" dy="16">オ</tspan><tspan x="433.8" dy="16">$</tspan><tspan x="433.8" dy="16">セ</tspan><tspan x="433.8" dy="16">%</tspan><tspan x="433.8" dy="16">2</tspan><tspan x="433.8" dy="16">ケ</tspan><tspan x="433.8" dy="16">7</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="6.06s" begin="-5.28s" repeatCount="indefinite"/>
     </text>
-    <text font-size="14" fill="#3fb950" opacity="0.34" font-family="monospace">
-      <tspan x="537.8" dy="16">シ</tspan><tspan x="537.8" dy="16">4</tspan><tspan x="537.8" dy="16">3</tspan><tspan x="537.8" dy="16">サ</tspan><tspan x="537.8" dy="16">+</tspan><tspan x="537.8" dy="16">オ</tspan><tspan x="537.8" dy="16">7</tspan><tspan x="537.8" dy="16">%</tspan><tspan x="537.8" dy="16">1</tspan><tspan x="537.8" dy="16">+</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="5.55s" begin="-0.02s" repeatCount="indefinite"/>
+    <text font-size="14" fill="#3fb950" opacity="0.31" font-family="monospace">
+      <tspan x="479.9" dy="16">ウ</tspan><tspan x="479.9" dy="16">カ</tspan><tspan x="479.9" dy="16">オ</tspan><tspan x="479.9" dy="16">ク</tspan><tspan x="479.9" dy="16">6</tspan><tspan x="479.9" dy="16">ク</tspan><tspan x="479.9" dy="16">ア</tspan><tspan x="479.9" dy="16">0</tspan><tspan x="479.9" dy="16">$</tspan><tspan x="479.9" dy="16">3</tspan><tspan x="479.9" dy="16">カ</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="7.23s" begin="-2.75s" repeatCount="indefinite"/>
     </text>
-    <text font-size="14" fill="#3fb950" opacity="0.4" font-family="monospace">
-      <tspan x="585.6" dy="16">+</tspan><tspan x="585.6" dy="16">%</tspan><tspan x="585.6" dy="16">6</tspan><tspan x="585.6" dy="16">#</tspan><tspan x="585.6" dy="16">2</tspan><tspan x="585.6" dy="16">ス</tspan><tspan x="585.6" dy="16">ス</tspan><tspan x="585.6" dy="16">ス</tspan><tspan x="585.6" dy="16">ス</tspan><tspan x="585.6" dy="16">エ</tspan><tspan x="585.6" dy="16">0</tspan><tspan x="585.6" dy="16">5</tspan><tspan x="585.6" dy="16">ス</tspan><tspan x="585.6" dy="16">イ</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="7.46s" begin="-3.41s" repeatCount="indefinite"/>
-    </text>
-    <text font-size="14" fill="#3fb950" opacity="0.36" font-family="monospace">
-      <tspan x="630.0" dy="16">エ</tspan><tspan x="630.0" dy="16">ア</tspan><tspan x="630.0" dy="16">3</tspan><tspan x="630.0" dy="16">オ</tspan><tspan x="630.0" dy="16">2</tspan><tspan x="630.0" dy="16">エ</tspan><tspan x="630.0" dy="16">+</tspan><tspan x="630.0" dy="16">シ</tspan><tspan x="630.0" dy="16">4</tspan><tspan x="630.0" dy="16">ア</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="6.26s" begin="-0.69s" repeatCount="indefinite"/>
-    </text>
-    <text font-size="14" fill="#3fb950" opacity="0.32" font-family="monospace">
-      <tspan x="679.4" dy="16">シ</tspan><tspan x="679.4" dy="16">4</tspan><tspan x="679.4" dy="16">シ</tspan><tspan x="679.4" dy="16">0</tspan><tspan x="679.4" dy="16">エ</tspan><tspan x="679.4" dy="16">エ</tspan><tspan x="679.4" dy="16">%</tspan><tspan x="679.4" dy="16">0</tspan><tspan x="679.4" dy="16">ソ</tspan><tspan x="679.4" dy="16">0</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="6.96s" begin="-1.03s" repeatCount="indefinite"/>
-    </text>
-    <text font-size="14" fill="#3fb950" opacity="0.38" font-family="monospace">
-      <tspan x="737.2" dy="16">0</tspan><tspan x="737.2" dy="16">$</tspan><tspan x="737.2" dy="16">7</tspan><tspan x="737.2" dy="16">カ</tspan><tspan x="737.2" dy="16">1</tspan><tspan x="737.2" dy="16">ア</tspan><tspan x="737.2" dy="16">キ</tspan><tspan x="737.2" dy="16">+</tspan><tspan x="737.2" dy="16">+</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="5.08s" begin="-3.81s" repeatCount="indefinite"/>
+    <text font-size="14" fill="#3fb950" opacity="0.37" font-family="monospace">
+      <tspan x="528.7" dy="16">サ</tspan><tspan x="528.7" dy="16">オ</tspan><tspan x="528.7" dy="16">7</tspan><tspan x="528.7" dy="16">%</tspan><tspan x="528.7" dy="16">1</tspan><tspan x="528.7" dy="16">4</tspan><tspan x="528.7" dy="16">5</tspan><tspan x="528.7" dy="16">6</tspan><tspan x="528.7" dy="16">8</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="5.08s" begin="-2.72s" repeatCount="indefinite"/>
     </text>
     <text font-size="14" fill="#3fb950" opacity="0.39" font-family="monospace">
-      <tspan x="789.2" dy="16">コ</tspan><tspan x="789.2" dy="16">5</tspan><tspan x="789.2" dy="16">%</tspan><tspan x="789.2" dy="16">ウ</tspan><tspan x="789.2" dy="16">7</tspan><tspan x="789.2" dy="16">%</tspan><tspan x="789.2" dy="16">ケ</tspan><tspan x="789.2" dy="16">1</tspan><tspan x="789.2" dy="16">シ</tspan><tspan x="789.2" dy="16">*</tspan>
-      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="7.26s" begin="-6.64s" repeatCount="indefinite"/>
+      <tspan x="576.6" dy="16">ス</tspan><tspan x="576.6" dy="16">ス</tspan><tspan x="576.6" dy="16">ス</tspan><tspan x="576.6" dy="16">ス</tspan><tspan x="576.6" dy="16">エ</tspan><tspan x="576.6" dy="16">0</tspan><tspan x="576.6" dy="16">5</tspan><tspan x="576.6" dy="16">ス</tspan><tspan x="576.6" dy="16">イ</tspan><tspan x="576.6" dy="16">キ</tspan><tspan x="576.6" dy="16">ウ</tspan><tspan x="576.6" dy="16">キ</tspan><tspan x="576.6" dy="16">ソ</tspan><tspan x="576.6" dy="16">カ</tspan><tspan x="576.6" dy="16">エ</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="7.62s" begin="-6.66s" repeatCount="indefinite"/>
+    </text>
+    <text font-size="14" fill="#3fb950" opacity="0.36" font-family="monospace">
+      <tspan x="632.4" dy="16">シ</tspan><tspan x="632.4" dy="16">4</tspan><tspan x="632.4" dy="16">ア</tspan><tspan x="632.4" dy="16">ウ</tspan><tspan x="632.4" dy="16">%</tspan><tspan x="632.4" dy="16">キ</tspan><tspan x="632.4" dy="16">4</tspan><tspan x="632.4" dy="16">ス</tspan><tspan x="632.4" dy="16">オ</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="4.91s" begin="-2.78s" repeatCount="indefinite"/>
+    </text>
+    <text font-size="14" fill="#3fb950" opacity="0.3" font-family="monospace">
+      <tspan x="688.4" dy="16">0</tspan><tspan x="688.4" dy="16">ソ</tspan><tspan x="688.4" dy="16">0</tspan><tspan x="688.4" dy="16">0</tspan><tspan x="688.4" dy="16">コ</tspan><tspan x="688.4" dy="16">ウ</tspan><tspan x="688.4" dy="16">オ</tspan><tspan x="688.4" dy="16">エ</tspan><tspan x="688.4" dy="16">8</tspan><tspan x="688.4" dy="16">サ</tspan><tspan x="688.4" dy="16">8</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="6.91s" begin="-3.28s" repeatCount="indefinite"/>
+    </text>
+    <text font-size="14" fill="#3fb950" opacity="0.31" font-family="monospace">
+      <tspan x="733.7" dy="16">1</tspan><tspan x="733.7" dy="16">シ</tspan><tspan x="733.7" dy="16">オ</tspan><tspan x="733.7" dy="16">7</tspan><tspan x="733.7" dy="16">2</tspan><tspan x="733.7" dy="16">+</tspan><tspan x="733.7" dy="16">ア</tspan><tspan x="733.7" dy="16">9</tspan><tspan x="733.7" dy="16">1</tspan><tspan x="733.7" dy="16">コ</tspan><tspan x="733.7" dy="16">5</tspan><tspan x="733.7" dy="16">%</tspan><tspan x="733.7" dy="16">ウ</tspan><tspan x="733.7" dy="16">7</tspan><tspan x="733.7" dy="16">%</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="7.27s" begin="-3.75s" repeatCount="indefinite"/>
+    </text>
+    <text font-size="14" fill="#3fb950" opacity="0.31" font-family="monospace">
+      <tspan x="784.9" dy="16">2</tspan><tspan x="784.9" dy="16">9</tspan><tspan x="784.9" dy="16">1</tspan><tspan x="784.9" dy="16">サ</tspan><tspan x="784.9" dy="16">5</tspan><tspan x="784.9" dy="16">ク</tspan><tspan x="784.9" dy="16">4</tspan><tspan x="784.9" dy="16">#</tspan><tspan x="784.9" dy="16">#</tspan><tspan x="784.9" dy="16">9</tspan><tspan x="784.9" dy="16">%</tspan>
+      <animateTransform attributeName="transform" type="translate" from="0,-260" to="0,500" dur="8.13s" begin="-2.89s" repeatCount="indefinite"/>
     </text>
     </g>
 
-    <!-- scanlines -->
-    <g opacity="0.06">
-      <rect x="1" y="43" width="858" height="436" fill="url(#bg)"/>
-    </g>
-
-    <!-- content: whole block fades smoothly in/out at loop boundary -->
     <g opacity="1">
       <animate attributeName="opacity" calcMode="linear"
         keyTimes="0;0.94667;0.98;1"
@@ -121,11 +115,11 @@
   </g>
   <clipPath id="clip_l2">
     <rect x="34" y="90" width="0" height="26">
-      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.06667;0.06952;0.07238;0.07524;0.07810;0.08095;0.08381;0.08667;0.08952;0.09238;0.09524;0.09810;0.10095;0.10381;0.10667;1.00000" values="0;0;10.0;20.0;30.0;40.0;50.0;60.0;70.0;80.0;90.0;100.0;110.0;120.0;130.0;140.0;140.0" dur="15.0s" repeatCount="indefinite"/>
+      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.06667;0.06952;0.07238;0.07524;0.07810;0.08095;0.08381;0.08667;0.08952;0.09238;0.09524;0.09810;0.10095;0.10381;0.10667;1.00000" values="0;0;8.1;16.3;24.4;32.5;40.6;48.8;56.9;65.0;73.2;81.3;89.4;97.5;105.7;113.8;113.8" dur="15.0s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <g clip-path="url(#clip_l2)">
-    <text x="34" y="108" font-size="15" fill="#79c0ff" filter="url(#glow)">&amp;gt; bilal-segaa</text>
+    <text x="34" y="108" font-size="15" fill="#79c0ff" filter="url(#glow)">&gt; bilal-segaa</text>
   </g>
   <clipPath id="clip_l3">
     <rect x="34" y="122" width="0" height="26">
@@ -137,11 +131,11 @@
   </g>
   <clipPath id="clip_l4">
     <rect x="34" y="146" width="0" height="26">
-      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.20000;0.20762;0.21524;0.22286;0.23048;0.23810;0.24571;0.25333;0.26095;0.26857;0.27619;0.28381;0.29143;0.29905;0.30667;1.00000" values="0;0;40.4;80.7;121.1;161.5;201.9;242.2;282.6;323.0;363.3;403.7;444.1;484.5;524.8;565.2;565.2" dur="15.0s" repeatCount="indefinite"/>
+      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.20000;0.20762;0.21524;0.22286;0.23048;0.23810;0.24571;0.25333;0.26095;0.26857;0.27619;0.28381;0.29143;0.29905;0.30667;1.00000" values="0;0;32.7;65.3;98.0;130.6;163.3;195.9;228.6;261.3;293.9;326.6;359.2;391.9;424.5;457.2;457.2" dur="15.0s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <g clip-path="url(#clip_l4)">
-    <text x="34" y="164" font-size="14.5" fill="#79c0ff" filter="url(#glow)">&amp;gt; Data Scientist &amp;#183; Full-Stack Developer &amp;#183; AI Enthusiast</text>
+    <text x="34" y="164" font-size="14.5" fill="#79c0ff" filter="url(#glow)">&gt; Data Scientist · Full-Stack Developer · AI Enthusiast</text>
   </g>
   <clipPath id="clip_l5">
     <rect x="34" y="178" width="0" height="26">
@@ -153,7 +147,7 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.42000;0.43000;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
-    <text x="34" y="220" font-size="14" fill="#e3b341">&#8942; Resolving packages...</text>
+    <text x="34" y="220" font-size="14" fill="#e3b341">... Resolving packages</text>
   </g>
   <rect x="34" y="232" width="420" height="8" rx="4" fill="#21262d" stroke="#30363d" opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.42000;0.42667;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
@@ -163,7 +157,7 @@
   </rect>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.52000;0.53333;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
-    <text x="34" y="260" font-size="14.5" fill="#7ee787" >&amp;#10003; Package "creativity" installed successfully</text>
+    <text x="34" y="260" font-size="14.5" fill="#7ee787" >Package "creativity" installed successfully</text>
   </g>
   <clipPath id="clip_l6">
     <rect x="34" y="274" width="0" height="26">
@@ -175,11 +169,11 @@
   </g>
   <clipPath id="clip_l7">
     <rect x="34" y="298" width="0" height="26">
-      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.60667;0.61333;0.62000;0.62667;0.63333;0.64000;0.64667;0.65333;0.66000;0.66667;0.67333;0.68000;0.68667;0.69333;0.70000;1.00000" values="0;0;37.4;74.8;112.2;149.6;187.0;224.4;261.9;299.3;336.7;374.1;411.5;448.9;486.3;523.7;523.7" dur="15.0s" repeatCount="indefinite"/>
+      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.60667;0.61333;0.62000;0.62667;0.63333;0.64000;0.64667;0.65333;0.66000;0.66667;0.67333;0.68000;0.68667;0.69333;0.70000;1.00000" values="0;0;29.7;59.4;89.1;118.7;148.4;178.1;207.8;237.5;267.2;296.9;326.5;356.2;385.9;415.6;415.6" dur="15.0s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <g clip-path="url(#clip_l7)">
-    <text x="34" y="316" font-size="14.5" fill="#79c0ff" filter="url(#glow)">&amp;gt; CS Engineering @ ESTIN &amp;#8212; AI &amp;amp; Data Science track</text>
+    <text x="34" y="316" font-size="14.5" fill="#79c0ff" filter="url(#glow)">&gt; CS Engineering @ ESTIN — AI &amp; Data Science track</text>
   </g>
   <clipPath id="clip_l8">
     <rect x="34" y="330" width="0" height="26">
@@ -195,7 +189,7 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.78667;0.79667;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
-    <text x="34" y="394" font-size="13" fill="#3fb950" font-weight="bold">[&amp;#10003;]</text>
+    <text x="34" y="394" font-size="13" fill="#3fb950" font-weight="bold">[OK]</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.78667;0.79667;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
@@ -207,7 +201,7 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.80000;0.81000;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
-    <text x="34" y="414" font-size="13" fill="#3fb950" font-weight="bold">[&amp;#10003;]</text>
+    <text x="34" y="414" font-size="13" fill="#3fb950" font-weight="bold">[OK]</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.80000;0.81000;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
@@ -219,7 +213,7 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.81333;0.82333;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
-    <text x="34" y="434" font-size="13" fill="#3fb950" font-weight="bold">[&amp;#10003;]</text>
+    <text x="34" y="434" font-size="13" fill="#3fb950" font-weight="bold">[OK]</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" calcMode="linear" keyTimes="0.00000;0.81333;0.82333;1.00000" values="0;0;1;1" dur="15.0s" repeatCount="indefinite"/>
@@ -231,18 +225,17 @@
   </g>
   <clipPath id="clip_l9">
     <rect x="34" y="448" width="0" height="26">
-      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.83333;0.83714;0.84095;0.84476;0.84857;0.85238;0.85619;0.86000;0.86381;0.86762;0.87143;0.87524;0.87905;0.88286;0.88667;1.00000" values="0;0;36.2;72.4;108.7;144.9;181.1;217.3;253.6;289.8;326.0;362.2;398.4;434.7;470.9;507.1;507.1" dur="15.0s" repeatCount="indefinite"/>
+      <animate attributeName="width" calcMode="discrete" keyTimes="0.00000;0.83333;0.83714;0.84095;0.84476;0.84857;0.85238;0.85619;0.86000;0.86381;0.86762;0.87143;0.87524;0.87905;0.88286;0.88667;1.00000" values="0;0;30.9;61.7;92.6;123.5;154.4;185.2;216.1;247.0;277.8;308.7;339.6;370.5;401.3;432.2;432.2" dur="15.0s" repeatCount="indefinite"/>
     </rect>
   </clipPath>
   <g clip-path="url(#clip_l9)">
-    <text x="34" y="466" font-size="14.5" fill="#79c0ff" filter="url(#glow)">&amp;gt; Open to collaboration &amp;#10003; building intelligent apps</text>
+    <text x="34" y="466" font-size="14.5" fill="#79c0ff" filter="url(#glow)">&gt; Open to collaboration -- building intelligent apps</text>
   </g>
   <rect x="470" y="450" width="9" height="18" fill="#7ee787" opacity="0">
     <animate attributeName="opacity" calcMode="discrete" keyTimes="0.00000;0.88667;0.89667;0.90667;0.91667;0.92667;0.93667;0.94667;0.95667;0.96667" values="0;0;1;0;1;0;1;0;1;0" dur="15.0s" repeatCount="indefinite"/>
   </rect>
     </g>
 
-    <!-- subtle scanline texture overlay -->
     <g opacity="0.05" stroke="#000000">
       <line x1="1" y1="44" x2="859" y2="44"/>
       <line x1="1" y1="48" x2="859" y2="48"/>
@@ -355,7 +348,6 @@
       <line x1="1" y1="476" x2="859" y2="476"/>
     </g>
 
-    <!-- slow scan glow sweep -->
     <rect x="1" y="0" width="858" height="60" fill="#7ee787" opacity="0.025">
       <animateTransform attributeName="transform" type="translate" from="0,0" to="0,480" dur="6s" repeatCount="indefinite"/>
     </rect>
