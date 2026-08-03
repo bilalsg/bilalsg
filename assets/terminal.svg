@@ -1,198 +1,270 @@
-<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg" font-family="'Fira Code','JetBrains Mono',Consolas,monospace">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#010409"/>
-    </linearGradient>
-    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#238636"/>
-      <stop offset="100%" stop-color="#7ee787"/>
-    </linearGradient>
-    <linearGradient id="rainFade" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#000000" stop-opacity="1"/>
-      <stop offset="8%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="90%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
-    </linearGradient>
-    <mask id="rainMask">
-      <rect x="0" y="0" width="900" height="700" fill="#ffffff"/>
-      <rect x="0" y="0" width="900" height="700" fill="url(#rainFadeInv)"/>
-    </mask>
-    <linearGradient id="rainFadeInv" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#000000" stop-opacity="0.9"/>
-      <stop offset="10%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="88%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.95"/>
-    </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="42%" r="78%">
-      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0.5"/>
-    </radialGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="1.1" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
-      <feGaussianBlur stdDeviation="2.2"/>
-    </filter>
-    <clipPath id="screenClip"><rect x="1" y="1" width="898" height="698" rx="13"/></clipPath>
-  </defs>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Terminal Portfolio</title>
+<style>
+  html,body{margin:0;padding:0;background:#010409;display:flex;align-items:center;justify-content:center;min-height:100vh;}
 
-  <rect x="1" y="1" width="898" height="698" rx="13" fill="url(#bg)" stroke="#30363d" stroke-width="1.5"/>
+  .terminal{
+    width:860px;
+    height:480px;
+    border-radius:12px;
+    overflow:hidden;
+    background:linear-gradient(180deg,#0d1117 0%,#010409 100%);
+    border:1px solid #30363d;
+    box-shadow:0 30px 60px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.02);
+    font-family:'Fira Code','JetBrains Mono',Consolas,monospace;
+    position:relative;
+  }
 
-  <g clip-path="url(#screenClip)">
+  .titlebar{
+    height:42px;
+    background:#161b22;
+    border-bottom:1px solid #30363d;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+    position:relative;
+    z-index:5;
+  }
+  .dot{width:12px;height:12px;border-radius:50%;margin-right:8px;}
+  .dot.red{background:#ff5f56;} .dot.yellow{background:#ffbd2e;} .dot.green{background:#27c93f;}
+  .titlebar .label{
+    position:absolute;left:50%;transform:translateX(-50%);
+    color:#8b949e;font-size:12.5px;
+  }
 
-  <g mask="url(#rainMask)">
-    <text font-size="14" fill="#39d353" opacity="0.32" font-family="monospace"><tspan x="2.9" dy="0">キ</tspan><tspan x="2.9" dy="17">コ</tspan><tspan x="2.9" dy="17">%</tspan><tspan x="2.9" dy="17">ス</tspan><tspan x="2.9" dy="17">ｱ</tspan><tspan x="2.9" dy="17">ク</tspan><tspan x="2.9" dy="17">8</tspan><tspan x="2.9" dy="17">フ</tspan><tspan x="2.9" dy="17">オ</tspan><tspan x="2.9" dy="17">シ</tspan><animateTransform attributeName="transform" type="translate" from="0,-190" to="0,720" dur="6.72s" begin="-0.47s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#c9ffd9" opacity="0.72" filter="url(#glow)" font-family="monospace"><tspan x="2.9">ｹ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="6.72s" begin="-0.47s" repeatCount="indefinite"/></text>
-    <text font-size="13" fill="#39d353" opacity="0.32" font-family="monospace"><tspan x="46.4" dy="0">ク</tspan><tspan x="46.4" dy="16">\</tspan><tspan x="46.4" dy="16">ｵ</tspan><tspan x="46.4" dy="16">キ</tspan><tspan x="46.4" dy="16">ヘ</tspan><tspan x="46.4" dy="16">カ</tspan><tspan x="46.4" dy="16">=</tspan><tspan x="46.4" dy="16">ツ</tspan><animateTransform attributeName="transform" type="translate" from="0,-148" to="0,720" dur="6.02s" begin="-0.87s" repeatCount="indefinite"/></text>
-    <text font-size="13" fill="#c9ffd9" opacity="0.72" filter="url(#glow)" font-family="monospace"><tspan x="46.4">リ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="6.02s" begin="-0.87s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#39d353" opacity="0.44" font-family="monospace"><tspan x="94.4" dy="0">\</tspan><tspan x="94.4" dy="17">ノ</tspan><tspan x="94.4" dy="17">ｲ</tspan><tspan x="94.4" dy="17">ス</tspan><tspan x="94.4" dy="17">+</tspan><tspan x="94.4" dy="17">ケ</tspan><tspan x="94.4" dy="17">/</tspan><animateTransform attributeName="transform" type="translate" from="0,-139" to="0,720" dur="4.89s" begin="-1.01s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#c9ffd9" opacity="0.8400000000000001" filter="url(#glow)" font-family="monospace"><tspan x="94.4">ｹ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="4.89s" begin="-1.01s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.36" font-family="monospace"><tspan x="140.7" dy="0">2</tspan><tspan x="140.7" dy="19">ｱ</tspan><tspan x="140.7" dy="19">ラ</tspan><tspan x="140.7" dy="19">ミ</tspan><tspan x="140.7" dy="19">ネ</tspan><tspan x="140.7" dy="19">ミ</tspan><tspan x="140.7" dy="19">サ</tspan><tspan x="140.7" dy="19">\</tspan><tspan x="140.7" dy="19">ラ</tspan><tspan x="140.7" dy="19">$</tspan><tspan x="140.7" dy="19">7</tspan><animateTransform attributeName="transform" type="translate" from="0,-229" to="0,720" dur="8.89s" begin="-6.48s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.76" filter="url(#glow)" font-family="monospace"><tspan x="140.7">コ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="8.89s" begin="-6.48s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.37" font-family="monospace"><tspan x="181.7" dy="0">ワ</tspan><tspan x="181.7" dy="19">ト</tspan><tspan x="181.7" dy="19">6</tspan><tspan x="181.7" dy="19">ｸ</tspan><tspan x="181.7" dy="19">カ</tspan><tspan x="181.7" dy="19">コ</tspan><tspan x="181.7" dy="19">=</tspan><tspan x="181.7" dy="19">\</tspan><animateTransform attributeName="transform" type="translate" from="0,-172" to="0,720" dur="8.47s" begin="-6.93s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.77" filter="url(#glow)" font-family="monospace"><tspan x="181.7">ヲ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="8.47s" begin="-6.93s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.36" font-family="monospace"><tspan x="229.6" dy="0">シ</tspan><tspan x="229.6" dy="19">モ</tspan><tspan x="229.6" dy="19">4</tspan><tspan x="229.6" dy="19">ケ</tspan><tspan x="229.6" dy="19">ク</tspan><tspan x="229.6" dy="19">リ</tspan><tspan x="229.6" dy="19">\</tspan><animateTransform attributeName="transform" type="translate" from="0,-153" to="0,720" dur="9.47s" begin="-7.78s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.76" filter="url(#glow)" font-family="monospace"><tspan x="229.6">ｴ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="9.47s" begin="-7.78s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#39d353" opacity="0.35" font-family="monospace"><tspan x="276.3" dy="0">3</tspan><tspan x="276.3" dy="18">ン</tspan><tspan x="276.3" dy="18">ニ</tspan><tspan x="276.3" dy="18">ソ</tspan><tspan x="276.3" dy="18">7</tspan><tspan x="276.3" dy="18">ク</tspan><tspan x="276.3" dy="18">フ</tspan><animateTransform attributeName="transform" type="translate" from="0,-146" to="0,720" dur="8.36s" begin="-1.08s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#c9ffd9" opacity="0.75" filter="url(#glow)" font-family="monospace"><tspan x="276.3">ｵ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="8.36s" begin="-1.08s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.38" font-family="monospace"><tspan x="321.5" dy="0">ニ</tspan><tspan x="321.5" dy="19">1</tspan><tspan x="321.5" dy="19">ｶ</tspan><tspan x="321.5" dy="19">+</tspan><tspan x="321.5" dy="19">ヤ</tspan><tspan x="321.5" dy="19">ツ</tspan><tspan x="321.5" dy="19">ｺ</tspan><animateTransform attributeName="transform" type="translate" from="0,-153" to="0,720" dur="8.83s" begin="-2.46s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.78" filter="url(#glow)" font-family="monospace"><tspan x="321.5">ン</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="8.83s" begin="-2.46s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.36" font-family="monospace"><tspan x="365.1" dy="0">ト</tspan><tspan x="365.1" dy="19">サ</tspan><tspan x="365.1" dy="19">ヌ</tspan><tspan x="365.1" dy="19">ト</tspan><tspan x="365.1" dy="19">ホ</tspan><tspan x="365.1" dy="19">ホ</tspan><tspan x="365.1" dy="19">イ</tspan><tspan x="365.1" dy="19">6</tspan><animateTransform attributeName="transform" type="translate" from="0,-172" to="0,720" dur="8.67s" begin="-1.58s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.76" filter="url(#glow)" font-family="monospace"><tspan x="365.1">テ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="8.67s" begin="-1.58s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#39d353" opacity="0.31" font-family="monospace"><tspan x="408.5" dy="0">/</tspan><tspan x="408.5" dy="18">ル</tspan><tspan x="408.5" dy="18">チ</tspan><tspan x="408.5" dy="18">9</tspan><tspan x="408.5" dy="18">キ</tspan><tspan x="408.5" dy="18">2</tspan><tspan x="408.5" dy="18">=</tspan><tspan x="408.5" dy="18">ｵ</tspan><tspan x="408.5" dy="18">ｵ</tspan><tspan x="408.5" dy="18">ｶ</tspan><tspan x="408.5" dy="18">ｵ</tspan><animateTransform attributeName="transform" type="translate" from="0,-218" to="0,720" dur="5.11s" begin="-3.24s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#c9ffd9" opacity="0.71" filter="url(#glow)" font-family="monospace"><tspan x="408.5">ケ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="5.11s" begin="-3.24s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.31" font-family="monospace"><tspan x="456.9" dy="0">ソ</tspan><tspan x="456.9" dy="19">ワ</tspan><tspan x="456.9" dy="19">キ</tspan><tspan x="456.9" dy="19">セ</tspan><tspan x="456.9" dy="19">ア</tspan><tspan x="456.9" dy="19">/</tspan><tspan x="456.9" dy="19">ト</tspan><tspan x="456.9" dy="19">%</tspan><animateTransform attributeName="transform" type="translate" from="0,-172" to="0,720" dur="5.1s" begin="-1.85s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.71" filter="url(#glow)" font-family="monospace"><tspan x="456.9">ヒ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="5.1s" begin="-1.85s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#39d353" opacity="0.45" font-family="monospace"><tspan x="499.7" dy="0">ヲ</tspan><tspan x="499.7" dy="17">ｱ</tspan><tspan x="499.7" dy="17">4</tspan><tspan x="499.7" dy="17">タ</tspan><tspan x="499.7" dy="17">ソ</tspan><tspan x="499.7" dy="17">6</tspan><tspan x="499.7" dy="17">3</tspan><tspan x="499.7" dy="17">5</tspan><tspan x="499.7" dy="17">5</tspan><animateTransform attributeName="transform" type="translate" from="0,-173" to="0,720" dur="6.13s" begin="-0.88s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#c9ffd9" opacity="0.85" filter="url(#glow)" font-family="monospace"><tspan x="499.7">メ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="6.13s" begin="-0.88s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#39d353" opacity="0.37" font-family="monospace"><tspan x="543.9" dy="0">ウ</tspan><tspan x="543.9" dy="17">ヒ</tspan><tspan x="543.9" dy="17">$</tspan><tspan x="543.9" dy="17">ｱ</tspan><tspan x="543.9" dy="17">テ</tspan><tspan x="543.9" dy="17">*</tspan><tspan x="543.9" dy="17">エ</tspan><tspan x="543.9" dy="17">$</tspan><tspan x="543.9" dy="17">ラ</tspan><tspan x="543.9" dy="17">シ</tspan><tspan x="543.9" dy="17">メ</tspan><animateTransform attributeName="transform" type="translate" from="0,-207" to="0,720" dur="7.14s" begin="-6.48s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#c9ffd9" opacity="0.77" filter="url(#glow)" font-family="monospace"><tspan x="543.9">ヘ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="7.14s" begin="-6.48s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#39d353" opacity="0.46" font-family="monospace"><tspan x="589.2" dy="0">ノ</tspan><tspan x="589.2" dy="18">マ</tspan><tspan x="589.2" dy="18">ｶ</tspan><tspan x="589.2" dy="18">ホ</tspan><tspan x="589.2" dy="18">ハ</tspan><tspan x="589.2" dy="18">#</tspan><tspan x="589.2" dy="18">7</tspan><tspan x="589.2" dy="18">ン</tspan><animateTransform attributeName="transform" type="translate" from="0,-164" to="0,720" dur="8.18s" begin="-8.09s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#c9ffd9" opacity="0.85" filter="url(#glow)" font-family="monospace"><tspan x="589.2">4</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="8.18s" begin="-8.09s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#39d353" opacity="0.42" font-family="monospace"><tspan x="632.6" dy="0">ヲ</tspan><tspan x="632.6" dy="18">ｱ</tspan><tspan x="632.6" dy="18">サ</tspan><tspan x="632.6" dy="18">ヘ</tspan><tspan x="632.6" dy="18">セ</tspan><tspan x="632.6" dy="18">ホ</tspan><tspan x="632.6" dy="18">4</tspan><tspan x="632.6" dy="18">ハ</tspan><tspan x="632.6" dy="18">ワ</tspan><tspan x="632.6" dy="18">ヒ</tspan><animateTransform attributeName="transform" type="translate" from="0,-200" to="0,720" dur="6.97s" begin="-6.87s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#c9ffd9" opacity="0.8200000000000001" filter="url(#glow)" font-family="monospace"><tspan x="632.6">ア</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="6.97s" begin="-6.87s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#39d353" opacity="0.44" font-family="monospace"><tspan x="678.9" dy="0">タ</tspan><tspan x="678.9" dy="18">ｴ</tspan><tspan x="678.9" dy="18">ハ</tspan><tspan x="678.9" dy="18">5</tspan><tspan x="678.9" dy="18">ヌ</tspan><tspan x="678.9" dy="18">ｺ</tspan><tspan x="678.9" dy="18">ロ</tspan><animateTransform attributeName="transform" type="translate" from="0,-146" to="0,720" dur="5.03s" begin="-4.76s" repeatCount="indefinite"/></text>
-    <text font-size="15" fill="#c9ffd9" opacity="0.8400000000000001" filter="url(#glow)" font-family="monospace"><tspan x="678.9">3</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="5.03s" begin="-4.76s" repeatCount="indefinite"/></text>
-    <text font-size="13" fill="#39d353" opacity="0.3" font-family="monospace"><tspan x="723.4" dy="0">ニ</tspan><tspan x="723.4" dy="16">チ</tspan><tspan x="723.4" dy="16">エ</tspan><tspan x="723.4" dy="16">ト</tspan><tspan x="723.4" dy="16">3</tspan><tspan x="723.4" dy="16">テ</tspan><tspan x="723.4" dy="16">4</tspan><tspan x="723.4" dy="16">ヲ</tspan><animateTransform attributeName="transform" type="translate" from="0,-148" to="0,720" dur="5.36s" begin="-2.94s" repeatCount="indefinite"/></text>
-    <text font-size="13" fill="#c9ffd9" opacity="0.7" filter="url(#glow)" font-family="monospace"><tspan x="723.4">セ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="5.36s" begin="-2.94s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#39d353" opacity="0.31" font-family="monospace"><tspan x="769.2" dy="0">ノ</tspan><tspan x="769.2" dy="17">フ</tspan><tspan x="769.2" dy="17">エ</tspan><tspan x="769.2" dy="17">ム</tspan><tspan x="769.2" dy="17">フ</tspan><tspan x="769.2" dy="17">ヨ</tspan><tspan x="769.2" dy="17">8</tspan><tspan x="769.2" dy="17">マ</tspan><tspan x="769.2" dy="17">レ</tspan><tspan x="769.2" dy="17">メ</tspan><animateTransform attributeName="transform" type="translate" from="0,-190" to="0,720" dur="7.27s" begin="-6.06s" repeatCount="indefinite"/></text>
-    <text font-size="14" fill="#c9ffd9" opacity="0.71" filter="url(#glow)" font-family="monospace"><tspan x="769.2">ン</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="7.27s" begin="-6.06s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.32" font-family="monospace"><tspan x="816.4" dy="0">チ</tspan><tspan x="816.4" dy="19">%</tspan><tspan x="816.4" dy="19">ト</tspan><tspan x="816.4" dy="19">$</tspan><tspan x="816.4" dy="19">9</tspan><tspan x="816.4" dy="19">ウ</tspan><tspan x="816.4" dy="19">0</tspan><tspan x="816.4" dy="19">ネ</tspan><tspan x="816.4" dy="19">ア</tspan><tspan x="816.4" dy="19">ト</tspan><tspan x="816.4" dy="19">ヌ</tspan><animateTransform attributeName="transform" type="translate" from="0,-229" to="0,720" dur="5.29s" begin="-3.28s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.72" filter="url(#glow)" font-family="monospace"><tspan x="816.4">ク</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="5.29s" begin="-3.28s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#39d353" opacity="0.45" font-family="monospace"><tspan x="858.0" dy="0">=</tspan><tspan x="858.0" dy="19">ク</tspan><tspan x="858.0" dy="19">ミ</tspan><tspan x="858.0" dy="19">ノ</tspan><tspan x="858.0" dy="19">ヤ</tspan><tspan x="858.0" dy="19">カ</tspan><tspan x="858.0" dy="19">ス</tspan><animateTransform attributeName="transform" type="translate" from="0,-153" to="0,720" dur="7.09s" begin="-3.98s" repeatCount="indefinite"/></text>
-    <text font-size="16" fill="#c9ffd9" opacity="0.85" filter="url(#glow)" font-family="monospace"><tspan x="858.0">ケ</tspan><animateTransform attributeName="transform" type="translate" from="0,-20" to="0,720" dur="7.09s" begin="-3.98s" repeatCount="indefinite"/></text>
-  </g>
-  <rect x="0" y="0" width="900" height="700" fill="#010409" opacity="0.32"/>
+  .screen{
+    position:relative;
+    height:calc(100% - 42px);
+    overflow:hidden;
+  }
 
-  <rect x="1" y="46" width="898" height="654" fill="#ffffff" opacity="0">
-    <animate attributeName="opacity" values="0;0.015;0;0.02;0;0.012;0" keyTimes="0;0.15;0.3;0.55;0.7;0.88;1" dur="15.2154s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
-  </rect>
+  /* ---------- matrix rain ---------- */
+  .rain{
+    position:absolute;inset:0;
+    filter:blur(.3px);
+    opacity:.85;
+    mix-blend-mode:screen;
+  }
+  .col{
+    position:absolute;
+    top:-200px;
+    font-size:14px;
+    line-height:18px;
+    color:#3fb950;
+    opacity:.34;
+    text-shadow:0 0 6px rgba(63,185,80,.5);
+    animation:fall linear infinite;
+    white-space:pre;
+  }
+  @keyframes fall{
+    from{transform:translateY(0);}
+    to{transform:translateY(680px);}
+  }
 
-  <g>
-    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.924419;0.973711;0.999;1" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1"/>
+  .scanlines{
+    position:absolute;inset:0;
+    background:repeating-linear-gradient(
+      to bottom, rgba(0,0,0,.08) 0px, rgba(0,0,0,.08) 1px,
+      transparent 1px, transparent 3px
+    );
+    pointer-events:none;
+    z-index:4;
+  }
+  .vignette{
+    position:absolute;inset:0;
+    background:radial-gradient(ellipse at 50% 40%, transparent 55%, rgba(0,0,0,.5) 100%);
+    pointer-events:none;
+    z-index:6;
+  }
+  .flicker{
+    position:absolute;inset:0;
+    background:#7ee787;
+    opacity:0;
+    pointer-events:none;
+    z-index:3;
+    animation:flicker 6.3s ease-in-out infinite;
+  }
+  @keyframes flicker{
+    0%,100%{opacity:0;} 42%{opacity:0;} 43%{opacity:.02;} 44%{opacity:0;}
+    71%{opacity:0;} 71.5%{opacity:.025;} 72%{opacity:0;}
+  }
 
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.0;0.036148" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      <text x="30" y="78" font-size="14" fill="#7ee787" filter="url(#glow)">┌──────────────────────────────────┐</text>
-      <text x="30" y="98" font-size="14" fill="#7ee787" filter="url(#glow)">│   B I L A L   ·   S E G A A       │</text>
-      <text x="30" y="118" font-size="12" fill="#58a6ff">│   Data Scientist · Full-Stack Dev │</text>
-      <text x="30" y="138" font-size="14" fill="#7ee787" filter="url(#glow)">└──────────────────────────────────┘</text>
-    </g>
-    <clipPath id="cl0_43547"><rect x="30" y="77" height="22" width="0">
-      <animate attributeName="width" values="0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;72.0" keyTimes="0.0;0.060415;0.061678;0.062942;0.064206;0.06547;0.066734;0.067998;0.069262;0.9995" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect></clipPath>
-    <g clip-path="url(#cl0_43547)"><text x="30" y="92" font-size="15" fill="#7ee787" filter="url(#glow)" textLength="72.0" lengthAdjust="spacing">$ whoami</text></g>
-    <text x="30" y="119" font-size="15" fill="#79c0ff" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.083721;0.102123" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      &gt; bilal-segaa
-    </text>
-    <clipPath id="cl3_85197"><rect x="30" y="158" height="22" width="0">
-      <animate attributeName="width" values="0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;126.0" keyTimes="0.0;0.139535;0.140799;0.142063;0.143327;0.14459;0.145854;0.147118;0.148382;0.149646;0.15091;0.152174;0.153438;0.154702;0.155966;0.9995" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect></clipPath>
-    <g clip-path="url(#cl3_85197)"><text x="30" y="173" font-size="15" fill="#7ee787" filter="url(#glow)" textLength="126.0" lengthAdjust="spacing">$ cat role.txt</text></g>
-    <text x="30" y="200" font-size="15" fill="#79c0ff" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.16911;0.188827" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      &gt; Data Scientist · Full-Stack Developer · AI Enthusiast
-    </text>
-    <clipPath id="cl6_5268"><rect x="30" y="239" height="22" width="0">
-      <animate attributeName="width" values="0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;279.0" keyTimes="0.0;0.229525;0.230789;0.232053;0.233316;0.23458;0.235844;0.237108;0.238372;0.239636;0.2409;0.242164;0.243428;0.244692;0.245956;0.247219;0.248483;0.249747;0.251011;0.252275;0.253539;0.254803;0.256067;0.257331;0.258595;0.259858;0.261122;0.262386;0.26365;0.264914;0.266178;0.267442;0.9995" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect></clipPath>
-    <g clip-path="url(#cl6_5268)"><text x="30" y="254" font-size="15" fill="#7ee787" filter="url(#glow)" textLength="279.0" lengthAdjust="spacing">$ npm install creativity --save</text></g>
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.281901;0.29636;0.35091;0.38090999999999997" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
-      <g transform="translate(36 276)">
-        <circle r="6" fill="none" stroke="#e3b341" stroke-opacity="0.25" stroke-width="2.2"/>
-        <path d="M 0 -6 A 6 6 0 0 1 5.1 3.18" fill="none" stroke="#e3b341" stroke-width="2.2" stroke-linecap="round">
-          <animateTransform attributeName="transform" type="rotate" from="0" to="1080" begin="0.28190100s" dur="1.05s" repeatCount="1" fill="freeze"/>
-        </path>
-      </g>
-      <text x="52" y="281" font-size="14" fill="#e3b341">Resolving packages...</text>
-    </g>
-    <text x="30" y="335" font-size="15" fill="#7ee787" opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.362083;0.383114" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      ✓ Package “creativity” installed successfully
-    </text>
-    <clipPath id="cl11_26955"><rect x="30" y="374" height="22" width="0">
-      <animate attributeName="width" values="0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;171.0" keyTimes="0.0;0.420526;0.42179;0.423054;0.424317;0.425581;0.426845;0.428109;0.429373;0.430637;0.431901;0.433165;0.434429;0.435693;0.436957;0.43822;0.439484;0.440748;0.442012;0.443276;0.9995" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect></clipPath>
-    <g clip-path="url(#cl11_26955)"><text x="30" y="389" font-size="15" fill="#7ee787" filter="url(#glow)" textLength="171.0" lengthAdjust="spacing">$ cat education.txt</text></g>
-    <text x="30" y="416" font-size="15" fill="#79c0ff" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.456421;0.476138" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      &gt; CS Engineering @ ESTIN — AI &amp; Data Science track
-    </text>
-    <clipPath id="cl14_92841"><rect x="30" y="455" height="22" width="0">
-      <animate attributeName="width" values="0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;117.0" keyTimes="0.0;0.516835;0.518099;0.519363;0.520627;0.521891;0.523155;0.524419;0.525683;0.526946;0.52821;0.529474;0.530738;0.532002;0.9995" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect></clipPath>
-    <g clip-path="url(#cl14_92841)"><text x="30" y="470" font-size="15" fill="#7ee787" filter="url(#glow)" textLength="117.0" lengthAdjust="spacing">$ ./status.sh</text></g>
-    <text x="30" y="497" font-size="14" fill="#8b949e" opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.546461;0.563549" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      Running diagnostics...
-    </text>
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.578008;0.593782" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      <text x="30" y="524" font-size="13" fill="#3fb950">[✓]</text>
-      <text x="66" y="524" font-size="13" fill="#8b949e">Passion     : </text>
-      <text x="210" y="524" font-size="13" fill="#7ee787">online</text>
-    </g>
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.604297;0.620071" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      <text x="30" y="551" font-size="13" fill="#3fb950">[✓]</text>
-      <text x="66" y="551" font-size="13" fill="#8b949e">Curiosity   : </text>
-      <text x="210" y="551" font-size="13" fill="#7ee787">online</text>
-    </g>
-    <g opacity="0">
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.630586;0.64636" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-      <text x="30" y="578" font-size="13" fill="#3fb950">[✓]</text>
-      <text x="66" y="578" font-size="13" fill="#8b949e">Coffee level: </text>
-      <text x="210" y="578" font-size="13" fill="#f85149">critical</text>
-    </g>
-    <clipPath id="cl20_6260"><rect x="30" y="617" height="22" width="0">
-      <animate attributeName="width" values="0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;117.0" keyTimes="0.0;0.680485;0.681749;0.683013;0.684277;0.685541;0.686805;0.688069;0.689333;0.690597;0.69186;0.693124;0.694388;0.695652;0.9995" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect></clipPath>
-    <g clip-path="url(#cl20_6260)"><text x="30" y="632" font-size="15" fill="#7ee787" filter="url(#glow)" textLength="117.0" lengthAdjust="spacing">$ ./deploy.sh</text></g>
-    <clipPath id="cl21_30480"><rect x="30" y="644" height="22" width="0">
-      <animate attributeName="width" values="0.0;9.0;18.0;27.0;36.0;45.0;54.0;63.0;72.0;81.0;90.0;99.0;108.0;117.0;126.0;135.0;144.0;153.0;162.0;171.0;180.0;189.0;198.0;207.0;216.0;225.0;234.0;243.0;252.0;261.0;270.0;279.0;288.0;297.0;306.0;315.0;324.0;333.0;342.0;351.0;360.0;369.0;378.0;387.0;396.0;405.0;414.0;423.0;432.0;441.0;450.0;459.0;468.0;477.0;486.0;486.0" keyTimes="0.0;0.70999;0.711184;0.712378;0.713572;0.714765;0.715959;0.717153;0.718346;0.71954;0.720734;0.721927;0.723121;0.724315;0.725508;0.726702;0.727896;0.729089;0.730283;0.731477;0.73267;0.733864;0.735058;0.736252;0.737445;0.738639;0.739833;0.741026;0.74222;0.743414;0.744607;0.745801;0.746995;0.748188;0.749382;0.750576;0.751769;0.752963;0.754157;0.755351;0.756544;0.757738;0.758932;0.760125;0.761319;0.762513;0.763706;0.7649;0.766094;0.767287;0.768481;0.769675;0.770868;0.772062;0.773256;0.9995" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect></clipPath>
-    <g clip-path="url(#cl21_30480)"><text x="30" y="659" font-size="15" fill="#7ee787" filter="url(#glow)" textLength="486.0" lengthAdjust="spacing">&gt; Open to collaboration ✓ building intelligent apps</text></g>
-    <rect x="491.0" y="644" width="9" height="19" fill="#7ee787" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;0;1;0;1;0;0" keyTimes="0.0;0.776542;0.79133;0.806117;0.820905;0.835693;0.85048;0.865268;0.999" dur="15.2154s" begin="0s" repeatCount="indefinite" calcMode="discrete"/>
-    </rect>
-  </g>
+  /* ---------- content ---------- */
+  .content{
+    position:relative;z-index:5;
+    padding:26px 32px;
+    animation:cycleFade 15s ease-in-out infinite;
+  }
+  @keyframes cycleFade{
+    0%{opacity:1;}
+    94%{opacity:1;}
+    97.5%{opacity:0;}
+    100%{opacity:0;}
+  }
 
-  <rect x="1" y="0" width="898" height="90" fill="#7ee787" opacity="0.025">
-    <animateTransform attributeName="transform" type="translate" from="0,-90" to="0,700" dur="8.37s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1"/>
-  </rect>
-  </g>
-  <rect x="1" y="1" width="898" height="698" rx="13" fill="url(#vignette)" pointer-events="none"/>
+  .row{
+    font-size:14.5px;
+    line-height:24px;
+    white-space:nowrap;
+    overflow:hidden;
+  }
+  .cmd{color:#7ee787;text-shadow:0 0 5px rgba(126,231,135,.35);}
+  .out{color:#79c0ff;text-shadow:0 0 5px rgba(121,192,255,.3);}
+  .dim{color:#8b949e;}
+  .ok{color:#3fb950;}
+  .warn{color:#f85149;}
+  .succ{color:#7ee787;}
 
-  <rect x="1" y="1" width="898" height="44" rx="13" fill="#161b22"/>
-  <rect x="1" y="32" width="898" height="14" fill="#161b22"/>
-  <line x1="1" y1="46" x2="899" y2="46" stroke="#30363d" stroke-width="1"/>
-  <circle cx="30" cy="23" r="7" fill="#ff5f56"/>
-  <circle cx="52" cy="23" r="7" fill="#ffbd2e"/>
-  <circle cx="74" cy="23" r="7" fill="#27c93f"/>
-  <text x="450.0" y="28" text-anchor="middle" fill="#8b949e" font-size="13">bilal@estin: ~/portfolio</text>
+  .typewrap{display:inline-block;}
+  .clip{
+    display:inline-block;
+    animation-timing-function: steps(28,end);
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+  }
 
-</svg>
+  /* individual reveal windows (percent of 15s loop) */
+  .l1{ clip-path:inset(0 100% 0 0); animation-name: r1; }
+  @keyframes r1{ 0%,2%{clip-path:inset(0 100% 0 0);} 4.5%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l2{ clip-path:inset(0 100% 0 0); animation-name: r2; }
+  @keyframes r2{ 0%,6.5%{clip-path:inset(0 100% 0 0);} 10.5%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l3{ clip-path:inset(0 100% 0 0); animation-name: r3; }
+  @keyframes r3{ 0%,13%{clip-path:inset(0 100% 0 0);} 18%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l4{ clip-path:inset(0 100% 0 0); animation-name: r4; }
+  @keyframes r4{ 0%,20%{clip-path:inset(0 100% 0 0);} 31.5%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l5{ clip-path:inset(0 100% 0 0); animation-name: r5; }
+  @keyframes r5{ 0%,35%{clip-path:inset(0 100% 0 0);} 42.5%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l6{ clip-path:inset(0 100% 0 0); animation-name: r6; }
+  @keyframes r6{ 0%,57%{clip-path:inset(0 100% 0 0);} 61%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l7{ clip-path:inset(0 100% 0 0); animation-name: r7; }
+  @keyframes r7{ 0%,63%{clip-path:inset(0 100% 0 0);} 73%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l8{ clip-path:inset(0 100% 0 0); animation-name: r8; }
+  @keyframes r8{ 0%,75%{clip-path:inset(0 100% 0 0);} 79%,100%{clip-path:inset(0 0 0 0);} }
+
+  .l9{ clip-path:inset(0 100% 0 0); animation-name: r9; }
+  @keyframes r9{ 0%,86.5%{clip-path:inset(0 100% 0 0);} 90.5%,100%{clip-path:inset(0 0 0 0);} }
+
+  /* simple fade-in rows (spinner output / status lines) */
+  .fadein{ opacity:0; animation-timing-function:ease; animation-fill-mode:both;
+            animation-iteration-count:infinite; animation-duration:15s; }
+
+  .spin  { animation-name:f-spin; }
+  @keyframes f-spin{ 0%,44%{opacity:0;} 45%,50.5%{opacity:1;} 51%,100%{opacity:0;} }
+
+  .bar-track{ animation-name:f-spin; }
+  .bar-fill{
+    height:8px;border-radius:4px;
+    background:linear-gradient(90deg,#238636,#7ee787);
+    animation-name:barfill; animation-timing-function:linear; animation-fill-mode:both;
+    animation-iteration-count:infinite; animation-duration:15s;
+    width:0;
+  }
+  @keyframes barfill{ 0%,44%{width:0%;} 52%{width:100%;} 53%,100%{width:100%;} }
+
+  .succ-line{ animation-name:f-succ; }
+  @keyframes f-succ{ 0%,53%{opacity:0;} 55%,100%{opacity:1;} 94%{opacity:1;} }
+  /* succ-line stays visible after appearing, resets with global cycleFade */
+
+  .diagh{ animation-name:f-diagh; }
+  @keyframes f-diagh{ 0%,80.5%{opacity:0;} 81.5%,100%{opacity:1;} }
+
+  .diag1{ animation-name:f-diag1; }
+  @keyframes f-diag1{ 0%,82%{opacity:0;} 83%,100%{opacity:1;} }
+  .diag2{ animation-name:f-diag2; }
+  @keyframes f-diag2{ 0%,83.5%{opacity:0;} 84.5%,100%{opacity:1;} }
+  .diag3{ animation-name:f-diag3; }
+  @keyframes f-diag3{ 0%,85%{opacity:0;} 86%,100%{opacity:1;} }
+
+  .cursor{
+    display:inline-block;width:8px;height:16px;
+    background:#7ee787;margin-left:2px;vertical-align:-2px;
+    opacity:0; animation-fill-mode:both;
+    animation-name:cursorwin, cursorblink;
+    animation-duration:15s, .9s;
+    animation-iteration-count:infinite, infinite;
+    animation-timing-function:step-end, step-end;
+  }
+  @keyframes cursorwin{ 0%,90%{opacity:0;} 90.6%,100%{opacity:1;} }
+  @keyframes cursorblink{ 0%,50%{opacity:1;} 50.01%,100%{opacity:0;} }
+</style>
+</head>
+<body>
+
+<div class="terminal">
+  <div class="titlebar">
+    <div class="dot red"></div><div class="dot yellow"></div><div class="dot green"></div>
+    <div class="label">bilal@estin: ~/portfolio</div>
+  </div>
+
+  <div class="screen">
+    <div class="rain" id="rain"></div>
+    <div class="scanlines"></div>
+    <div class="flicker"></div>
+
+    <div class="content">
+      <div class="row"><span class="cmd clip l1">$ whoami</span></div>
+      <div class="row"><span class="out clip l2">&gt; bilal-segaa</span></div>
+
+      <div class="row" style="margin-top:6px"><span class="cmd clip l3">$ cat role.txt</span></div>
+      <div class="row"><span class="out clip l4">&gt; Data Scientist · Full-Stack Developer · AI Enthusiast</span></div>
+
+      <div class="row" style="margin-top:6px"><span class="cmd clip l5">$ npm install creativity --save</span></div>
+      <div class="row fadein spin dim">⠋ Resolving packages...</div>
+      <div class="row" style="margin:4px 0 8px">
+        <div class="bar-track" style="width:420px;height:8px;border-radius:4px;background:#21262d;border:1px solid #30363d;">
+          <div class="bar-fill"></div>
+        </div>
+      </div>
+      <div class="row fadein succ-line succ">✓ Package "creativity" installed successfully</div>
+
+      <div class="row" style="margin-top:8px"><span class="cmd clip l6">$ cat education.txt</span></div>
+      <div class="row"><span class="out clip l7">&gt; CS Engineering @ ESTIN — AI &amp; Data Science track</span></div>
+
+      <div class="row" style="margin-top:8px"><span class="cmd clip l8">$ ./status.sh</span></div>
+      <div class="row fadein diagh dim">Running diagnostics...</div>
+      <div class="row fadein diag1"><span class="ok">[✓]</span> <span class="dim">Passion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span><span class="succ">online</span></div>
+      <div class="row fadein diag2"><span class="ok">[✓]</span> <span class="dim">Curiosity&nbsp;&nbsp;&nbsp;: </span><span class="succ">online</span></div>
+      <div class="row fadein diag3"><span class="ok">[✓]</span> <span class="dim">Coffee level: </span><span class="warn">critical</span></div>
+
+      <div class="row" style="margin-top:8px">
+        <span class="out clip l9">&gt; Open to collaboration ✓ building intelligent apps</span><span class="cursor"></span>
+      </div>
+    </div>
+
+    <div class="vignette"></div>
+  </div>
+</div>
+
+<script>
+  // build matrix rain columns once, purely decorative / CSS-driven afterwards
+  const chars = "アイウエオカキクケコサシスセソ0123456789#$%&*+".split("");
+  const rain = document.getElementById('rain');
+  const colCount = 22;
+  for(let i=0;i<colCount;i++){
+    const col = document.createElement('div');
+    col.className = 'col';
+    col.style.left = (i * (860/colCount) + Math.random()*10) + 'px';
+    const len = 14 + Math.floor(Math.random()*10);
+    let txt = '';
+    for(let j=0;j<len;j++){ txt += chars[Math.floor(Math.random()*chars.length)] + '\n'; }
+    col.textContent = txt;
+    col.style.animationDuration = (5 + Math.random()*5).toFixed(2) + 's';
+    col.style.animationDelay = (-Math.random()*10).toFixed(2) + 's';
+    col.style.opacity = (0.18 + Math.random()*0.22).toFixed(2);
+    rain.appendChild(col);
+  }
+</script>
+
+</body>
+</html>
