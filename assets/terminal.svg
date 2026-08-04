@@ -859,8 +859,8 @@
           repeatCount="indefinite"
           calcMode="discrete"
         />
-        <rect x="26" y="224" width="430" height="8" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
-        <rect x="26" y="224" width="0.0" height="8" rx="4" fill="url(#barGrad)"/>
+        <rect x="26" y="224" width="430" height="2" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+        <rect x="26" y="224" width="0.0" height="1" rx="4" fill="url(#barGrad)"/>
         <text x="470" y="230" font-size="11" fill="#8b949e">0%</text>
       </g>
       <g opacity="0">
