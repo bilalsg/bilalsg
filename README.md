@@ -41,6 +41,25 @@ bilal@estin:~$ ls -la stack/
 <br/>
 
 ```bash
+bilal@estin:~$ ps aux | grep coding
+```
+
+<!-- ============================================
+     🐈 CAT-TYPING STATUS WIDGET — dimension controls
+     Change WIDTH below to resize. Height auto-scales
+     since the SVG preserves its own aspect ratio.
+     ============================================ -->
+<div align="center">
+
+<img src="./assets/cat_typing_ascii (2).svg" width="380" alt="cat typing ascii animation" />
+
+<sub><code>bilal@estin:~$ status: probably debugging something at 2am 🐾</code></sub>
+
+</div>
+
+<br/>
+
+```bash
 bilal@estin:~$ ./build --project featured
 ```
 
