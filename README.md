@@ -17,9 +17,20 @@
 bilal@estin:~$ cat about.md
 ```
 
+<table>
+<tr>
+<td width="70%" valign="middle">
+
 > CS Engineering student at **ESTIN**, focused on **AI & Data Science**.
 > I turn messy data into products people can actually use — from ML pipelines
 > to the full-stack apps that ship them.
+
+</td>
+<td width="30%" align="center" valign="middle">
+<img src="./assets/chrome-dino.svg" width="160" alt="chrome dino offline game animation" />
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -54,27 +65,6 @@ bilal@estin:~$ ps aux | grep coding
 <img src="./assets/cat_typing_ascii (2).svg" width="380" alt="cat typing ascii animation" />
 
 <sub><code>bilal@estin:~$ status: probably debugging something at 2am 🐾</code></sub>
-
-</div>
-
-<br/>
-
-```bash
-bilal@estin:~$ ping api.production.com
-PING api.production.com: Request timed out.
-bilal@estin:~$ _
-```
-
-<!-- ============================================
-     🦖 CHROME DINO EASTER EGG — dimension controls
-     Change WIDTH below to resize. Height auto-scales
-     since the SVG preserves its own aspect ratio.
-     ============================================ -->
-<div align="center">
-
-<img src="./assets/chrome-dino.svg" width="380" alt="chrome dino offline game animation" />
-
-<sub><code>bilal@estin:~$ no wifi? no problem — press space to jump 🦖</code></sub>
 
 </div>
 
