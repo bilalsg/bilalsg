@@ -19,15 +19,15 @@ bilal@estin:~$ cat about.md
 
 <table>
 <tr>
-<td width="70%" valign="middle">
+<td width="55%" valign="middle">
 
 > CS Engineering student at **ESTIN**, focused on **AI & Data Science**.
 > I turn messy data into products people can actually use — from ML pipelines
 > to the full-stack apps that ship them.
 
 </td>
-<td width="30%" align="center" valign="middle">
-<img src="./assets/chrome-dino.svg" width="160" alt="chrome dino offline game animation" />
+<td width="45%" align="center" valign="middle">
+<img src="./assets/chrome-dino.svg" width="460" alt="chrome dino offline game animation" />
 </td>
 </tr>
 </table>
