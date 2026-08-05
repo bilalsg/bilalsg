@@ -60,6 +60,27 @@ bilal@estin:~$ ps aux | grep coding
 <br/>
 
 ```bash
+bilal@estin:~$ ping api.production.com
+PING api.production.com: Request timed out.
+bilal@estin:~$ _
+```
+
+<!-- ============================================
+     🦖 CHROME DINO EASTER EGG — dimension controls
+     Change WIDTH below to resize. Height auto-scales
+     since the SVG preserves its own aspect ratio.
+     ============================================ -->
+<div align="center">
+
+<img src="./assets/chrome-dino.svg" width="380" alt="chrome dino offline game animation" />
+
+<sub><code>bilal@estin:~$ no wifi? no problem — press space to jump 🦖</code></sub>
+
+</div>
+
+<br/>
+
+```bash
 bilal@estin:~$ ./build --project featured
 ```
 
@@ -73,8 +94,6 @@ bilal@estin:~$ ./build --project featured
 
 <br/>
 
-
-
 ```bash
 bilal@estin:~$ git log --graph --oneline --all
 ```
@@ -84,8 +103,7 @@ bilal@estin:~$ git log --graph --oneline --all
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bilalsg/bilalsg/output/github-contribution-grid-snake-dark.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/bilalsg/bilalsg/output/github-contribution-grid-snake.svg" />
 </picture>
-
-
+</div>
 
 <br/>
 
