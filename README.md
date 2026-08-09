@@ -5,7 +5,7 @@
 <br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=bilalsg&style=flat-square&color=7ee787&label=terminal+visits)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-segaa%F0%9F%8D%80-60b566306/)
 [![Email](https://img.shields.io/badge/Email-171B21?style=flat-square&logo=gmail&logoColor=D14836)](mailto:b_segaa@estin.dz)
 
 </div>
@@ -143,7 +143,7 @@ bilal@estin:~$ ./contact.sh --reach-out
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bilal-segaa-60b566306)
+[![LinkedIn](https://img.shields.io/badge/Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bilal-segaa%F0%9F%8D%80-60b566306/)
 [![Email](https://img.shields.io/badge/Say_Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:b_segaa@estin.dz)
 
 <sub>`exit 0`, open to collaboration in data science & full-stack dev 🌱</sub>
