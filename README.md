@@ -80,7 +80,7 @@ bilal@estin:~$ ls -la projects/ | tee saved.log
 
 <div align="center">
 
-<img src="./assets/floppy_disk.svg" width="90" alt="floppy disk save icon" />
+<img src="./assets/floppy_disk.svg" width="190" alt="floppy disk save icon" />
 
 <sub><code>-rw-r--r--  saved to disk, 4 entries</code></sub>
 
