@@ -65,18 +65,30 @@ bilal@estin:~$ ls -la stack/
 <br/>
 
 ```bash
+bilal@estin:~$ ps aux | grep coding
+```
+
+<div align="center">
+
+<img src="./assets/cat_typing_ascii (2).svg" width="380" alt="cat typing ascii animation" />
+
+<sub><code>bilal@estin:~$ status: probably debugging something at 2am 🐾</code></sub>
+
+</div>
+
+<br/>
+
+```bash
 bilal@estin:~$ ls -la projects/ | tee saved.log
 ```
 
-<table>
-<tr>
-<td width="70%" valign="middle">
+<div align="center">
 
-<sub><code>bilal@estin:~$ ps aux | grep coding</code></sub>
-<br/>
-<sub><code>status: probably debugging something at 2am 🐾, saved 4 entries to disk</code></sub>
+<img src="./assets/floppy_disk.svg" width="290" alt="floppy disk save icon" />
 
-<br/><br/>
+<sub><code>-rw-r--r--  saved to disk, 4 entries</code></sub>
+
+</div>
 
 <table width="100%">
 <tr>
@@ -110,15 +122,6 @@ bilal@estin:~$ ls -la projects/ | tee saved.log
 
 **`Argument Quality Classifier`**: Sentence-Transformer embeddings feeding gradient-boosted and random-forest classifiers, scoring argument quality in French media texts.
 
-</td>
-</tr>
-</table>
-
-</td>
-<td width="30%" align="center" valign="middle">
-<img src="./assets/cat_typing_ascii (2).svg" width="230" alt="cat typing ascii animation" />
-<br/>
-<img src="./assets/floppy_disk.svg" width="160" alt="floppy disk save icon" />
 </td>
 </tr>
 </table>
