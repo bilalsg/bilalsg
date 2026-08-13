@@ -76,7 +76,7 @@ bilal@estin:~$ ps aux | grep coding
 > digging deeper into intelligent tutoring systems & learning analytics.
 >
 > **Status:** somewhere between a clean commit and a debugging session
-> that has gone on slightly too long — the usual developer condition.
+> that has gone on slightly too long  the usual developer condition.
 >
 > Always happy to talk shop on data science, NLP, or full-stack builds.
 
