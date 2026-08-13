@@ -68,24 +68,13 @@ bilal@estin:~$ ls -la stack/
 bilal@estin:~$ ps aux | grep coding
 ```
 
-<table>
-<tr>
-<td width="55%" valign="middle">
+<div align="center">
 
-> **Currently:** building side projects, refining ML pipelines, and
-> digging deeper into intelligent tutoring systems & learning analytics.
->
-> **Status:** somewhere between a clean commit and a debugging session
-> that has gone on slightly too long  the usual developer condition.
->
-> Always happy to talk shop on data science, NLP, or full-stack builds.
-
-</td>
-<td width="45%" align="center" valign="middle">
 <img src="./assets/cat_typing_ascii (2).svg" width="380" alt="cat typing ascii animation" />
-</td>
-</tr>
-</table>
+
+<sub><code>bilal@estin:~$ status: probably debugging something at 2am 🐾</code></sub>
+
+</div>
 
 <br/>
 
