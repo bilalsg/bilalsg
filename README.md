@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/bilal_sg_bricks.svg" width="780" alt="Bilal SG" />
+<img src="./assets/bilal_sg_bricks1.svg" width="780" alt="Bilal SG" />
 
 <br/>
 
