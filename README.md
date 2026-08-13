@@ -72,13 +72,13 @@ bilal@estin:~$ ps aux | grep coding
 <tr>
 <td width="55%" valign="middle">
 
-> `PID 1337` — running since **forever**, priority: high, status: `R` (runnable, barely).
+> **Currently:** building side projects, refining ML pipelines, and
+> digging deeper into intelligent tutoring systems & learning analytics.
 >
-> Recent log lines: `console.log("why")`, `console.log("why still")`,
-> nine Stack Overflow tabs open, coffee gone cold two refills ago.
+> **Status:** somewhere between a clean commit and a debugging session
+> that has gone on slightly too long — the usual developer condition.
 >
-> No ETA on completion. Process cannot be killed, only paused — usually
-> around 2am, usually against its will.
+> Always happy to talk shop on data science, NLP, or full-stack builds.
 
 </td>
 <td width="45%" align="center" valign="middle">
