@@ -68,13 +68,24 @@ bilal@estin:~$ ls -la stack/
 bilal@estin:~$ ps aux | grep coding
 ```
 
-<div align="center">
+<table>
+<tr>
+<td width="55%" valign="middle">
 
+> `PID 1337` — running since **forever**, priority: high, status: `R` (runnable, barely).
+>
+> Recent log lines: `console.log("why")`, `console.log("why still")`,
+> nine Stack Overflow tabs open, coffee gone cold two refills ago.
+>
+> No ETA on completion. Process cannot be killed, only paused — usually
+> around 2am, usually against its will.
+
+</td>
+<td width="45%" align="center" valign="middle">
 <img src="./assets/cat_typing_ascii (2).svg" width="380" alt="cat typing ascii animation" />
-
-<sub><code>bilal@estin:~$ status: probably debugging something at 2am 🐾</code></sub>
-
-</div>
+</td>
+</tr>
+</table>
 
 <br/>
 
