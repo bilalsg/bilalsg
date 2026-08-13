@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./assets/bilal_sg_bricks.svg" width="480" alt="Bilal SG" />
+
+<br/>
+
 <img src="./assets/terminal.svg" width="100%" alt="terminal animation" />
 
 <br/>
