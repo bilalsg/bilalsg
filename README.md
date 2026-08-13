@@ -68,13 +68,26 @@ bilal@estin:~$ ls -la stack/
 bilal@estin:~$ ps aux | grep coding
 ```
 
-<div align="center">
+<table>
+<tr>
+<td width="55%" valign="middle">
 
+```
+USER   PID  %CPU  %MEM   COMMAND
+bilal  2077  98.6  12.3   node --watch
+bilal  2140  87.2   9.1   vite --host
+bilal  2201  76.4   8.8   jupyter-lab
+bilal  0001 100.0  99.9   caffeine.exe
+```
+
+> `bilal@estin:~$ status: probably debugging something at 2am 🐾`
+
+</td>
+<td width="45%" align="center" valign="middle">
 <img src="./assets/cat_typing_ascii (2).svg" width="380" alt="cat typing ascii animation" />
-
-<sub><code>bilal@estin:~$ status: probably debugging something at 2am 🐾</code></sub>
-
-</div>
+</td>
+</tr>
+</table>
 
 <br/>
 
